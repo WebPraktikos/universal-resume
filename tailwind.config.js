@@ -16,9 +16,10 @@ module.exports = {
         main: ['IBM Plex Sans', ...defaultTheme.fontFamily.sans]
       },
       fontSize: {
-        tag: '1.0625rem', // 17px
-        heading: '1.1875rem', // 19px
-        body: '1.125rem', // 18px
+        label: '0.9375rem', // 15px
+        tag: '1rem', // 16px
+        heading: '1.125rem', // 18px
+        body: '1.0625rem', // 17px
       },
       lineHeight: {
         heading: '1.4',
