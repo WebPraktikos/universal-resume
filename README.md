@@ -22,7 +22,7 @@ Now, it’s in alpha phase. I’ll continue working on it almost daily, indefini
 
 ## Hire me
 
-I will make you a resume in 1–2 days, for $35. I’ll happily provide revisions until you are satisfied. 100% satisfaction or money back guarantee. Feel free to contact me on [fiverr](https://www.fiverr.com/webpraktikos/create-a-basic-website-in-wordpress-or-just-html) or hi@webpraktikos.com
+I will make you a resume in 1–2 days. Feel free to contact me on [fiverr](https://www.fiverr.com/webpraktikos/create-a-basic-website-in-wordpress-or-just-html) or hi@webpraktikos.com
 
 ## How to run it
 
