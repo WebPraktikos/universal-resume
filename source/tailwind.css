@@ -85,7 +85,7 @@ html {
 }
 
 .mt-0\.5 {
-  margin-top: 0.195rem;
+  margin-top: 0.19rem;
 }
 
 .\-mt-0\.8 {
@@ -101,11 +101,11 @@ html {
 }
 
 .w-5\.5 {
-  width: 1.4rem
+  width: 1.3rem
 }
 
 .h-5\.5 {
-  height: 1.4rem
+  height: 1.3rem
 }
 
 @tailwind components;
