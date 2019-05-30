@@ -1,0 +1,26 @@
+{
+  "name": "universal-resume",
+  "version": "0.1.0",
+  "description": "Resume website that works on a monitor, paper, and phone.",
+  "author": "WebPraktikos <hi@webpraktikos.com>",
+  "license": "GNU General Public License v3.0",
+  "repository": "https://github.com/WebPraktikos/universal-resume.git",
+  "bugs": "https://github.com/WebPraktikos/universal-resume/issues",
+  "scripts": {
+    "serve": "concurrently \"postcss source/tailwind.css -o production/styles.css --watch\"  \"live-server .\"",
+    "development": "cross-env NODE_ENV=development postcss source/tailwind.css -o production/styles.css",
+    "production": "cross-env NODE_ENV=production postcss source/tailwind.css -o production/styles.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "tailwindcss": "^1.0.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.2"
+  }
+}

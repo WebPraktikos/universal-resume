@@ -1,0 +1,113 @@
+@tailwind base;
+
+@screen print {
+  @page {
+    margin: 0 !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    color: black !important;
+  }
+
+
+  h1, h2, h3, p, li {
+    color: black !important;
+  }
+
+  html {
+    font-size: 12.288px !important;
+  }
+}
+
+html {
+  font-size: 12.288px;
+}
+
+@screen sm {
+  html {
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 640px) / (816 - 640) );
+  }
+}
+
+@screen md {
+  html {
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 816px) / (1062 - 816) );
+  }
+}
+
+@screen lg {
+  html {
+    font-size: 16px;
+  }
+}
+
+@variants responsive {
+  .col-1 {
+    column-count: 1;
+  }
+
+  .col-2 {
+    column-count: 2;
+  }
+
+  .col-3 {
+    column-count: 3;
+  }
+
+  .col-gap-md {
+    column-gap: 2.1875rem; /* ex 1.875 50/16=3.125 40/16=2.5 35/16=2.1875*/
+  }
+
+  .col-fill {
+    column-fill: auto;
+  }
+}
+
+.hyphens-manual {
+  hyphens: manual;
+}
+
+.mb-0\.2 {
+  margin-bottom: 0.1rem;
+}
+
+.mb-0\.5 {
+  margin-bottom: 1rem;
+}
+
+.mb-1\.5 {
+  margin-bottom: 0.4rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mt-0\.5 {
+  margin-top: 0.195rem;
+}
+
+.\-mt-0\.8 {
+  margin-top: -0.0rem;
+}
+
+.mt-0\.2 {
+  margin-top: 0.05rem;
+}
+
+.\-mt-0\.2 {
+  margin-top: 0.05rem;
+}
+
+.w-5\.5 {
+  width: 1.4rem
+}
+
+.h-5\.5 {
+  height: 1.4rem
+}
+
+@tailwind components;
+
+@tailwind utilities;
