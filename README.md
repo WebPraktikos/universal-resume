@@ -29,8 +29,8 @@ I will make you a resume in 1–2 days, for $35. I’ll happily provide revision
 Clone the repository:
 
 ```
-git clone https://github.com/webpraktikos/universal-resume-template.git universal-resume-template
-cd universal-resume-template
+git clone https://github.com/webpraktikos/universal-resume.git universal-resume
+cd universal-resume
 ```
 
 Install the dependencies:
