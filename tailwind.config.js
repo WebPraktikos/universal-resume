@@ -28,6 +28,24 @@ module.exports = {
       letterSpacing: {
         wider: '0.07em', // ex 0.05em
       },
+      maxWidth: {
+        'letter': '66.40625rem',
+        'a4': '64.609375rem'
+      },
+      height: {
+        'letter-col': '70.1875rem',
+        'letter': '85.9375rem',
+        'a4-col': '75.578125rem',
+        'a4': '91.328125rem',
+      },
+      spacing: {
+        '0.2': '0.05rem',
+        '0.5': '0.19rem',
+        '1.5': '0.4rem',
+        '4.5': '1.15rem',
+        '5.5': '1.3rem',
+        '9': '2.25rem',
+      },
       colors: {
         'warmgray': {
           50: '#FAF9F7',
@@ -41,20 +59,6 @@ module.exports = {
           800: '#423D34',
           900: '#27241D'
         }
-      },
-      maxWidth: {
-        'letter': '66.40625rem',
-        'a4': '64.609375rem'
-      },
-      height: {
-        'letter-col': '70.1875rem',
-        'letter': '85.9375rem',
-        'a4-col': '75.578125rem',
-        'a4': '91.328125rem',
-      },
-      spacing: {
-        '1.5': '0.35rem',
-        '4.5': '1.15rem'
       },
     },
   },

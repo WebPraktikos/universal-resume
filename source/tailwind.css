@@ -68,46 +68,6 @@ html {
   hyphens: manual;
 }
 
-.mb-0\.2 {
-  margin-bottom: 0.1rem;
-}
-
-.mb-0\.5 {
-  margin-bottom: 1rem;
-}
-
-.mb-1\.5 {
-  margin-bottom: 0.4rem;
-}
-
-.mb-9 {
-  margin-bottom: 2.25rem;
-}
-
-.mt-0\.5 {
-  margin-top: 0.19rem;
-}
-
-.\-mt-0\.8 {
-  margin-top: -0.0rem;
-}
-
-.mt-0\.2 {
-  margin-top: 0.05rem;
-}
-
-.\-mt-0\.2 {
-  margin-top: 0.05rem;
-}
-
-.w-5\.5 {
-  width: 1.3rem
-}
-
-.h-5\.5 {
-  height: 1.3rem
-}
-
 @tailwind components;
 
 @tailwind utilities;
