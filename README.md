@@ -3,7 +3,7 @@
 Resume website template that works on a monitor, paper, and phone.
 Built with amazing [tailwindcss](https://tailwindcss.com/).
 
-Demo: https://universal-resume.netlify.com/
+Letter size demo: https://universal-resume.netlify.com/
 
 **How to print or save it as a pdf?**  
 In Chrome, Right-click -> Print.
