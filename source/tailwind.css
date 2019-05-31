@@ -29,6 +29,8 @@ html {
   font-size: 13.176471px; /* 14px */
 }
 
+/* For Letter size */
+
 @screen sm {
   html {
     font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (816 - 640) );
@@ -37,9 +39,23 @@ html {
 
 @screen md {
   html {
-    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 816px) / (1062 - 816) );
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 816px) / (1062.5 - 816) );
   }
 }
+
+/* For A4 size */
+
+/* @screen sm {
+  html {
+    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (793.92 - 640) );
+  }
+}
+
+@screen md {
+  html {
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 793.92px) / (1033.75 - 793.92) );
+  }
+} */
 
 @screen lg {
   html {
@@ -68,10 +84,10 @@ html {
     -webkit-column-break-inside: avoid;
     break-inside: avoid;
   }
-}
 
-.hyphens-manual {
-  hyphens: manual;
+  .hyphens-manual {
+    hyphens: manual;
+  }
 }
 
 @tailwind components;

@@ -9,7 +9,7 @@ Letter size demo: https://universal-resume.netlify.com/
 Right-click -> Print.
 
 **Does it support A4 and Letter paper sizes?**  
-Yes, just change a few classes.
+Yes, replace all *-letter classes with *-a4, uncomment specific media query, and theme screens config.
 
 **What font does it use?**  
 Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
