@@ -9,7 +9,7 @@ Letter size demo: https://universal-resume.netlify.com/
 In Chrome, Right-click -> Print.
 
 **Does it support A4 and Letter paper sizes?**  
-Yes, you can choose either one.
+Yes, just change a few classes.
 
 **What font does it use?**  
 Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
