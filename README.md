@@ -6,7 +6,7 @@ Built with amazing [tailwindcss](https://tailwindcss.com/).
 Letter size demo: https://universal-resume.netlify.com/
 
 **How to print or save it as a pdf?**  
-In Chrome, Right-click -> Print.
+Right-click -> Print.
 
 **Does it support A4 and Letter paper sizes?**  
 Yes, just change a few classes.
