@@ -63,6 +63,11 @@ html {
   .col-fill {
     column-fill: auto;
   }
+
+  .col-break-avoid {
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
 .hyphens-manual {
