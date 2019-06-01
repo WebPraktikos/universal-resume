@@ -3,7 +3,10 @@
 Resume website template that works on a monitor, paper, and phone.
 Built with amazing [tailwindcss](https://tailwindcss.com/).
 
-Letter size demo: https://universal-resume.netlify.com/
+Letter Demo: https://universal-resume.netlify.com/  
+A4 Demo: https://universal-resume-a4.netlify.com  
+
+Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F
 
 **How to print or save it as a pdf?**  
 Right-click -> Print.
@@ -22,7 +25,7 @@ Now, it’s in alpha phase. I’ll continue working on it almost daily, indefini
 
 ## Hire me
 
-I will make you a resume in 1–2 days. Feel free to contact me on [fiverr](https://www.fiverr.com/webpraktikos/create-a-basic-website-in-wordpress-or-just-html) or hi@webpraktikos.com
+I will make you a resume in 1–2 days. Feel free to contact me on [Fiverr](https://www.fiverr.com/webpraktikos/create-a-basic-website-in-wordpress-or-just-html) or hi@webpraktikos.com
 
 ## How to run it
 
