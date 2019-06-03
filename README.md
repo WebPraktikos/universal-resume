@@ -50,7 +50,7 @@ npm run serve
 For the CSS optimizations, run:
 
 ```
-npm run production
+npm run public
 ```
 
 ## Licence
