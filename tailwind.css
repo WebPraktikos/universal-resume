@@ -2,7 +2,10 @@
 
 @screen print {
   @page {
-    margin: 0 !important;
+    margin-top: 0in;
+    margin-bottom: 0in;
+    margin-left: 0in;
+    margin-right: 0in;
   }
 
   body {
@@ -11,7 +14,11 @@
     color: black !important;
   }
 
-  .initial {
+  .page {
+    padding: theme(spacing.14) theme(spacing.16) !important;
+  }
+
+  .initials {
     color: transparent !important;
     text-shadow: 0 0 0 #fff !important;
   }
@@ -21,7 +28,7 @@
   }
 
   html {
-    font-size: 12.288px !important; /* ? */
+    font-size: 12.288px !important; /* 13px */
   }
 }
 
@@ -82,6 +89,7 @@ html {
 
   .col-break-avoid {
     -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
     break-inside: avoid;
   }
 

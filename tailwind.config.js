@@ -44,18 +44,19 @@ module.exports = {
         'a4': '64.609375rem'
       },
       height: {
-        'letter-col': '70.1875rem',
         'letter': '85.9375rem',
-        'a4-col': '75.578125rem',
+        'letter-col': '72.7875rem',
         'a4': '91.328125rem',
+        'a4-col': '78.178125rem',
       },
       spacing: {
         '0.2': '0.05rem',
-        '0.5': '0.19rem',
+        '0.5': '0.17rem',
         '1.5': '0.4rem',
         '4.5': '1.15rem',
         '5.5': '1.3rem',
         '9': '2.25rem',
+        '14': '3.7rem',
       },
       colors: {
         'warmgray': {

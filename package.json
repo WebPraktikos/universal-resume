@@ -7,9 +7,9 @@
   "repository": "https://github.com/WebPraktikos/universal-resume.git",
   "bugs": "https://github.com/WebPraktikos/universal-resume/issues",
   "scripts": {
-    "serve": "concurrently \"postcss source/tailwind.css -o production/styles.css --watch\"  \"live-server .\"",
-    "development": "cross-env NODE_ENV=development postcss source/tailwind.css -o production/styles.css",
-    "production": "cross-env NODE_ENV=production postcss source/tailwind.css -o production/styles.css"
+    "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
+    "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o public/styles.css",
+    "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",

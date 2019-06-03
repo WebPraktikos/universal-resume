@@ -10,4 +10,4 @@ $RECYCLE.BIN/
 # Ignore these so they're not stored in source control
 node_modules
 package-lock.json
-production/styles.css
+public/styles.css
