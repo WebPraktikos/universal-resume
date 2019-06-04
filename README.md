@@ -57,7 +57,7 @@ For the CSS optimizations, run:
 npm run public
 ```
 
-A4 Size
+A4 Size Variant
 ---------
 
 In order to change the default size (letter) to A4, follow these 3 steps:
