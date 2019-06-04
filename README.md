@@ -1,4 +1,5 @@
-## Universal Resume Template
+Universal Resume Template
+---------
 
 Resume website template that works on a monitor, paper, and phone.
 Built with amazing [tailwindcss](https://tailwindcss.com/).
@@ -22,11 +23,13 @@ I couldn’t find any formal and professional resume (CV) website with good typo
 **What’s the status of its development?**  
 Now, it’s in alpha phase. I’ll continue working on it almost daily, indefinitely.
 
-## Hire me
+Hire me
+---------
 
 I will make you a resume in 1–2 days. Feel free to contact me on [Fiverr](https://www.fiverr.com/webpraktikos/create-a-basic-website-in-wordpress-or-just-html) or hi@webpraktikos.com
 
-## How to run it
+How to run it
+---------
 
 Clone the repository:
 
@@ -53,7 +56,24 @@ For the CSS optimizations, run:
 npm run public
 ```
 
-## Licence
+A4 Size
+---------
+
+In order to change the default size (letter) to A4, follow these 3 steps:
+
+**1.** Inside the `public/index.html` file, replace every `-letter` with `-a4`.
+
+**2.** Inside the `tailwind.config.js` file, uncomment the code block below `/* For A4 size */`, then comment the code block below `/* For Letter size */`
+
+**3.** Inside the `tailwind.css` file, uncomment the code below `/* For A4 size */`, then comment the code below `/* For Letter size */`
+
+Custom CSS
+---------
+
+Code from `tailwind.config.js` and `tailwind.css` is compiled to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`. Here is the default tailwind config [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app). Ordinary CSS is added to the `tailwind.css` file.
+
+Licence
+---------
 
 The GNU General Public License v3.0
 
