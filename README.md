@@ -7,7 +7,7 @@ Built with amazing [tailwindcss](https://tailwindcss.com/).
 Letter Demo: https://universal-resume.netlify.com/  
 A4 Demo: https://universal-resume-a4.netlify.com/  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F/  
-Multiple Pades Demo: https://universal-resume-pages.netlify.com/  
+Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
 
 **How to print or save it as a pdf?**  
 Right-click -> Print.
@@ -20,9 +20,6 @@ Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations
 
 **Why it’s made?**  
 I couldn’t find any formal and professional resume (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page. 
-
-**What’s the status of its development?**  
-Now, it’s in alpha phase. I’ll continue working on it almost daily, indefinitely.
 
 How to run it
 ---------
@@ -92,5 +89,5 @@ with:
 <li class="text-tag text-gray-800 bg-gray-200 print:bg-gray-100 px-3 leading-relaxed mr-2 mt-2">
 ```
 
-Licence
+License
 ---------
