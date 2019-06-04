@@ -46,6 +46,7 @@ module.exports = {
       height: {
         'letter': '85.9375rem',
         'letter-col': '72.7875rem',
+        'letter-col-full': '78.5375rem',
         'a4': '91.328125rem',
         'a4-col': '78.178125rem',
       },

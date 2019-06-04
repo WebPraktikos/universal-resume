@@ -71,5 +71,25 @@ In order to change the default size (letter) to A4, follow these 3 steps:
 
 **3.** Inside `tailwind.css`, uncomment the code below `/* For A4 size */`, then comment the code below `/* For Letter size */`
 
+Multiple Pages
+---------
+
+To create additional pages, follow these steps:
+
+**1.** Copy and paste everything below `<!-- Page -->`
+
+**2.** Find the first div and replace `bg-white` with `bg-gray-100 print:bg-white`
+
+**3.** Find div below`<!-- Column -->` and replace `md:h-letter-col print:h-letter-col` with `md:h-letter-col-full print:h-letter-col-full`
+
+**4.** Replace:
+```
+<li class="text-tag text-gray-800 bg-gray-100 px-3 leading-relaxed mr-2 mt-2">
+```
+with:
+```
+<li class="text-tag text-gray-800 bg-gray-200 print:bg-gray-100 px-3 leading-relaxed mr-2 mt-2">
+```
+
 Licence
 ---------
