@@ -23,11 +23,6 @@ I couldn’t find any formal and professional resume (CV) website with good typo
 **What’s the status of its development?**  
 Now, it’s in alpha phase. I’ll continue working on it almost daily, indefinitely.
 
-Hire me
----------
-
-I will make you a resume in 1–2 days. Feel free to contact me on [Fiverr](https://www.fiverr.com/webpraktikos/create-a-basic-website-in-wordpress-or-just-html) or hi@webpraktikos.com
-
 How to run it
 ---------
 
@@ -78,7 +73,3 @@ In order to change the default size (letter) to A4, follow these 3 steps:
 
 Licence
 ---------
-
-The GNU General Public License v3.0
-
-Since 2019 — WebPraktikos <hi@webpraktikos.com> [@webpraktikos](https://twitter.com/webpraktikos).
