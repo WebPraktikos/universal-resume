@@ -57,6 +57,15 @@ For the CSS optimizations, run:
 npm run public
 ```
 
+Custom CSS
+---------
+
+Code from `tailwind.config.js` and `tailwind.css` is compiled to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
+
+Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
+
+Ordinary CSS is added to the `tailwind.css` file.
+
 A4 Size Variant
 ---------
 
@@ -67,15 +76,6 @@ In order to change the default size (letter) to A4, follow these 3 steps:
 **2.** Inside `tailwind.config.js`, uncomment the code block below `/* For A4 size */`, then comment the code block below `/* For Letter size */`
 
 **3.** Inside `tailwind.css`, uncomment the code below `/* For A4 size */`, then comment the code below `/* For Letter size */`
-
-Custom CSS
----------
-
-Code from `tailwind.config.js` and `tailwind.css` is compiled to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
-
-Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
-
-Ordinary CSS is added to the `tailwind.css` file.
 
 Cold Gray Variant
 ---------
