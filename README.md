@@ -7,6 +7,7 @@ Built with amazing [tailwindcss](https://tailwindcss.com/).
 Letter Demo: https://universal-resume.netlify.com/  
 A4 Demo: https://universal-resume-a4.netlify.com  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F
+Cold Gray Demo: https://universal-resume-cold.netlify.com/
 
 **How to print or save it as a pdf?**  
 Right-click -> Print.
@@ -71,6 +72,13 @@ Custom CSS
 ---------
 
 Code from `tailwind.config.js` and `tailwind.css` is compiled to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`. Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app). Ordinary CSS is added to the `tailwind.css` file.
+
+Cold Gray Variant
+---------
+
+In order to change the default color (warm gray) to cold gray, do the following:
+
+Inside `public/index.html`, replace every `warmgray-` with `coldgray-`.
 
 Licence
 ---------
