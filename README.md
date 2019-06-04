@@ -6,8 +6,8 @@ Built with amazing [tailwindcss](https://tailwindcss.com/).
 
 Letter Demo: https://universal-resume.netlify.com/  
 A4 Demo: https://universal-resume-a4.netlify.com  
-Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F
-Cold Gray Demo: https://universal-resume-cold.netlify.com/
+Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F  
+Cold Gray Demo: https://universal-resume-cold.netlify.com/  
 
 **How to print or save it as a pdf?**  
 Right-click -> Print.
