@@ -8,6 +8,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Ignore these so they're not stored in source control
+.vscode
 node_modules
 package-lock.json
 public/styles.css
