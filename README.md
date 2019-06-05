@@ -55,6 +55,11 @@ Starting Point
 
 `npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
+Tailwind CSS
+---------
+
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
+
 Custom CSS
 ---------
 
@@ -62,7 +67,7 @@ Code from `tailwind.config.js` and `tailwind.css` is compiled to `public/style.c
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
-Ordinary CSS is added to the `tailwind.css` file.
+Need to quickly change the style — just add a class to the html element and write CSS inside the `tailwind.css` file.
 
 Columns
 ---------
