@@ -51,7 +51,9 @@ npm run public
 Starting Point
 ---------
 
+`public/index.html` is the starting point. By copy-pasting html, add new content — pages, sections, sub-sections, paragraphs, and lists.
 
+`npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
 Custom CSS
 ---------
