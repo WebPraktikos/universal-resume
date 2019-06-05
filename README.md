@@ -74,6 +74,3 @@ In order to change the default size (letter) to A4, follow these 3 steps:
 **2.** Inside `tailwind.config.js`, uncomment the code block below `/* For A4 size */`, then comment the code block below `/* For Letter size */`
 
 **3.** Inside `tailwind.css`, uncomment the code below `/* For A4 size */`, then comment the code below `/* For Letter size */`
-
-License
----------
