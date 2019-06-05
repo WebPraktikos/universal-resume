@@ -73,7 +73,7 @@ The `column-fill` CSS property controls how an element's contents are balanced w
 
 `<div>` beneath the `<!-- Column -->` comment controls columns display. Removing `col-fill` will make both columns equally tall.
 
-`<article>` next to the comment below is the last element in the column. Its margin-bottom is 0 (mb-0) in order to preserve page padding (margin).
+`<article>` next to the comment that is shown below is the last element in the column. Its margin-bottom is 0 (mb-0) in order to preserve page padding (margin).
 ```
 <!-- mb-4 when it wasn’t the last in the column -->
 ```
