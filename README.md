@@ -53,7 +53,7 @@ Starting Point
 
 `public/index.html` is the file where the content goes. By copy-pasting html, add new content — pages, sections, sub-sections, paragraphs, and lists.
 
-`npm run public` will make **public** directory ready for drag-n-drop, for example, to https://app.netlify.com/drop (registration required beforehand).
+`npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
 Custom CSS
 ---------
