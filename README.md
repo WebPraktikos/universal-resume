@@ -64,6 +64,20 @@ Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/
 
 Ordinary CSS is added to the `tailwind.css` file.
 
+Columns
+---------
+
+The `column-count` CSS property breaks an element's content into the specified number of columns. 
+
+The `column-fill` CSS property controls how an element's contents are balanced when broken into columns.
+
+`<div>` beneath the `<!-- Column -->` comment controls columns display. Removing `col-fill` will make both columns equally tall.
+
+`<article>` next to the comment below is the last element in the column. Its margin-bottom is 0 (mb-0) in order to preserve page padding (margin).
+```
+<!-- mb-4 when it wasn’t the last in the column -->
+```
+
 A4 Size Variant
 ---------
 
