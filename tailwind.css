@@ -28,7 +28,7 @@
   }
 
   html {
-    font-size: 12.288px !important; /* 13px */
+    font-size: 12.288px !important; /* ~13px */
   }
 }
 
@@ -96,6 +96,11 @@ html {
   .hyphens-manual {
     hyphens: manual;
   }
+}
+
+.transition-color-1 {
+  transition: color 0.1s;
+  transition-timing-function: ease;
 }
 
 @tailwind components;
