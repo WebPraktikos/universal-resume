@@ -100,7 +100,7 @@ html {
 
 .transition-color-1 {
   transition: color 0.1s;
-  transition-timing-function: ease;
+  transition-timing-function: ease-in-out;
 }
 
 @tailwind components;
