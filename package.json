@@ -1,11 +1,8 @@
 {
   "name": "universal-resume",
   "version": "1.0.0-beta.4",
-  "description": "Resume website that works on a monitor, paper, and phone.",
+  "description": "Resume website template that works on a monitor, paper, and phone.",
   "author": "WebPraktikos <hi@webpraktikos.com>",
-  "license": "GNU General Public License v3.0",
-  "repository": "https://github.com/WebPraktikos/universal-resume.git",
-  "bugs": "https://github.com/WebPraktikos/universal-resume/issues",
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
     "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o public/styles.css",

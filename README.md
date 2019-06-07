@@ -55,10 +55,15 @@ Starting Point
 
 `npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
+Classical CSS Variant
+---------
+
+
+
 Tailwind CSS
 ---------
 
-Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has a great [documentation](https://tailwindcss.com/docs/installation).
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
 
 Custom CSS
 ---------
@@ -102,3 +107,18 @@ Disable search engine indexing by uncommenting the following code:
 ```
 <!-- <meta name="robots" content="noindex"> -->
 ```
+
+Customer Support
+---------
+
+Contact me at https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
+
+If you have any question, comment, or get stuck, feel free to message me. Always happy to hear from you.  
+
+Updates
+---------
+
+I will work on Universal Resume almost daily, indefinitely. Every 7 days is the new release.
+
+Changelog
+---------
