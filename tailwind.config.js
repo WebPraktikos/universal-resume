@@ -34,7 +34,7 @@ module.exports = {
       },
       lineHeight: {
         heading: '1.4',
-        base: '1.45',
+        normal: '1.45', // ex 1.5
       },
       letterSpacing: {
         wider: '0.07em', // ex 0.05em
