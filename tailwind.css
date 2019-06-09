@@ -92,10 +92,10 @@ html {
     page-break-inside: avoid;
     break-inside: avoid;
   }
+}
 
-  .hyphens-manual {
-    hyphens: manual;
-  }
+.hyphens-manual {
+  hyphens: manual;
 }
 
 .transition-color-1 {

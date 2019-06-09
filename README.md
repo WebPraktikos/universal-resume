@@ -23,10 +23,9 @@ I couldn’t find any formal and professional resume (CV) website with good typo
 How to run it
 ---------
 
-Clone the repository:
+Navigate to the base directory:
 
 ```
-git clone https://github.com/webpraktikos/universal-resume.git universal-resume
 cd universal-resume
 ```
 
@@ -113,7 +112,7 @@ Customer Support
 
 Contact me at https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
 
-If you have any question, comment, or get stuck, feel free to message me. Always happy to hear from you.  
+If you have any question or comment, feel free to message me. Always happy to hear from you.  
 
 Updates
 ---------
