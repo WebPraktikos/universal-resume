@@ -54,15 +54,12 @@ Starting Point
 
 `npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
-Classical CSS Variant
----------
-
-
-
 Tailwind CSS
 ---------
 
-Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation). 
+
+Basically, you rarely need to do anything outside the index.html. Use together a bunch of pre-made utility classes that reflect a certain design system. There’s no cascade and selector specificity. The result is faster, and much more pleasurable workflow — especially long-term.
 
 Custom CSS
 ---------
@@ -73,22 +70,32 @@ Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/
 
 Need to quickly change the style — just add a class to the html element and write CSS inside the `tailwind.css` file.
 
+Classical CSS Variant
+---------
+
+If you dont want to use taildcss, there is also a `universal-resume-classicalcss` directory which contains only classical CSS. (styles.css contains selectors with a long list of properties for each one)
+
 Columns
 ---------
 
-The `column-count` CSS property breaks an element's content into the specified number of columns. 
+### For Tailwind CSS
 
-The `column-fill` CSS property controls how an element's contents are balanced when broken into columns.
+For the <div> beneath `<!-- Column -->` comment, **removing `col-fill` class will make both columns equally tall**.
 
-`<div>` beneath the `<!-- Column -->` comment controls columns display. Removing `col-fill` will make both columns equally tall.
+The last element in the column is the `<article>` that is below `<!-- mb-4 when it is not the last in the column -->` comment. Its margin-bottom is 0 (mb-0) in order to preserve page padding (margin).
 
-`<article>` next to the comment that is shown below is the last element in the column. Its margin-bottom is 0 (mb-0) in order to preserve page padding (margin).
-```
-<!-- mb-4 when it wasn’t the last in the column -->
-```
+### For Classical CSS
+
+For the <div> beneath `<!-- Column -->` comment, **adding `nofill` class will make both columns equally tall**.
+
+The last element in the column is the `<article>` that is below `<!-- Last in the column (last-in-col class) -->` comment. Its margin-bottom is 0 in order to preserve page padding (margin).
 
 A4 Size Variant
 ---------
+
+**Note:** The page will break for too much content and the third column will be formed. Move the content to other page, or do other edits to prevent it. 
+
+### For Tailwind CSS
 
 In order to change the default size (letter) to A4, follow these 3 steps:
 
@@ -97,6 +104,12 @@ In order to change the default size (letter) to A4, follow these 3 steps:
 **2.** Inside `tailwind.config.js`, uncomment the code block below `/* For A4 size */`, then comment the code block below `/* For Letter size */`
 
 **3.** Inside `tailwind.css`, uncomment the code below `/* For A4 size */`, then comment the code below `/* For Letter size */`
+
+### For Classical CSS
+
+**1.** Inside `index.html`, replace every `-letter` with `-a4`.
+
+**2.** Inside `styles.css`, replace every **816 with 793.92** and **1062.5 with 1033.75**
 
 Blocking Search Engines
 ---------
