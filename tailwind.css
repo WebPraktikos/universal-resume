@@ -15,7 +15,7 @@
   }
 
   .page {
-    padding: theme(spacing.14) theme(spacing.16) !important;
+    padding: theme(spacing.16) theme(spacing.16) !important;
   }
 
   .initials {
@@ -106,3 +106,9 @@ html {
 @tailwind components;
 
 @tailwind utilities;
+
+.icon-parent::before {
+  content: "A";
+  width: 0px;
+  visibility: hidden;
+}
