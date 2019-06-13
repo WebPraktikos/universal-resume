@@ -78,20 +78,24 @@ html {
   .col-2 {
     column-count: 2;
   }
+}
 
-  .col-gap-md {
-    column-gap: 2.1875rem;
-  }
+.col-gap-md {
+  column-gap: 2.1875rem;
+}
 
-  .col-fill {
-    column-fill: auto;
-  }
+.col-fill {
+  column-fill: auto;
+}
 
-  .col-break-avoid {
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
+.col-break-avoid {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.col-break-after {
+  page-break-after: always;
+  break-after: always;
 }
 
 .hyphens-manual {
@@ -103,12 +107,12 @@ html {
   transition-timing-function: ease-in-out;
 }
 
-@tailwind components;
-
-@tailwind utilities;
-
 .icon-parent::before {
   content: "A";
   width: 0px;
   visibility: hidden;
 }
+
+@tailwind components;
+
+@tailwind utilities;
