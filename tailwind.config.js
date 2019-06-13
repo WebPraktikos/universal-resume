@@ -63,8 +63,8 @@ module.exports = {
       },
       colors: {
         gray: {
-          '150': '#F0F4F8',
-          '250': '#EBF0F5',
+          '150': '#F2F6FA',
+          '250': '#EDF1F5',
           ...defaultTheme.colors.gray
         }
       },
