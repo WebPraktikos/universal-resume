@@ -1,24 +1,25 @@
 Universal Resume Template
 ---------
 
-Resume website template that works on a monitor, paper, and phone.
+Resume website template for print, PDF, mobile, and desktop.
 Built with amazing [tailwindcss](https://tailwindcss.com/).
 
-Letter Demo: https://universal-resume.netlify.com/  
-A4 Demo: https://universal-resume-a4.netlify.com/  
+Letter Size Demo: https://universal-resume.netlify.com/  
+A4 Size Demo: https://universal-resume-a4.netlify.com/  
+Multiple Pages Demo: …  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F/  
 
-**How to print or save it as a pdf?**  
+**How to print or save it as PDF?**  
 Right-click -> Print.
 
 **Does it support A4 and Letter paper sizes?**  
-Yes, replace all *-letter classes with *-a4, uncomment specific media query, and theme screens config.
+Yes, replace all *-letter classes with *-a4, and uncomment some specificified code blocks.
 
 **What font does it use?**  
 Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
 
 **Why it’s made?**  
-I couldn’t find any formal and professional resume (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page. 
+I couldn’t find any formal or professional resume (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page. 
 
 How to run it
 ---------
@@ -41,7 +42,7 @@ Start the development server:
 npm run serve
 ```
 
-For the CSS optimizations, run:
+For the CSS optimizations, just run:
 
 ```
 npm run public
@@ -73,27 +74,17 @@ Need to quickly change the style — just add a class to the html element and wr
 Classical CSS Variant
 ---------
 
-If you dont want to use taildcss, there is also a `universal-resume-classicalcss` directory which contains only classical CSS. (styles.css contains selectors with a long list of properties for each one)
+If you don’t want to use Tailwind CSS, there is also a `universal-resume-classicalcss` directory which contains only classical CSS. It only contains `index.html` and `styles.css`.
 
 Columns
 ---------
 
-### For Tailwind CSS
-
-For the <div> beneath `<!-- Column -->` comment, **removing `col-fill` class will make both columns equally tall**.
-
-The last element in the column is the `<article>` that is below `<!-- mb-4 when it is not the last in the column -->` comment. Its margin-bottom is 0 (mb-0) in order to preserve page padding (margin).
-
-### For Classical CSS
-
-For the <div> beneath `<!-- Column -->` comment, **adding `nofill` class will make both columns equally tall**.
-
-The last element in the column is the `<article>` that is below `<!-- Last in the column (last-in-col class) -->` comment. Its margin-bottom is 0 in order to preserve page padding (margin).
+Beneath `<!-- Column -->`, removing `col-fill` class will make both columns equally tall. Adding `nofill` class will do the same effect for the classical CSS variant.
 
 A4 Size Variant
 ---------
 
-**Note:** The page will break for too much content and the third column will be formed. Move the content to other page, or do other edits to prevent it. 
+**Important:** Page will break in form of additional columns if there is too much content for one page.
 
 ### For Tailwind CSS
 
@@ -109,28 +100,49 @@ In order to change the default size (letter) to A4, follow these 3 steps:
 
 **1.** Inside `index.html`, replace every `-letter` with `-a4`.
 
-**2.** Inside `styles.css`, replace every **816 with 793.92** and **1062.5 with 1033.75**
+**2.** Inside `styles.css`, replace every **816 with 793.700832** and **1062.5 with 1033.464625**
+
+Printing
+---------
+
+### Chrome
+
+Right-click -> Print.  
+Also, choose the **Save as PDF** option if needed.
+
+By expanding **More Settings**, change **Page Size** to A4 or Letter.
+
+### Firefor
+
+File -> Print.  
+
+Choose A4 or Letter size by navigating to **Properties -> Advanced -> Paper Size**.
+
+### Adobe Reader
 
 Blocking Search Engines
 ---------
 
-Disable search engine indexing by uncommenting the following code:
+Disable search engine indexing by adding the following code to the docoument’s `<head>`:
 
 ```
-<!-- <meta name="robots" content="noindex"> -->
+<meta name="robots" content="noindex">
 ```
 
 Customer Support
 ---------
 
-Contact me at https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
+Contact me through https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
 
-If you have any question or comment, feel free to message me. Always happy to hear from you.  
+If you have any questions or comments, feel free to message me. Always happy to hear from you. I’d love to chat.
+P.S. Stupid questions don’t exist for this one.
 
 Updates
 ---------
 
-I will work on Universal Resume almost daily, indefinitely. Every 7 days is the new release.
+I will work on Universal Resume almost daily, indefinitely. Every 5 days is the new release.
 
 Changelog
 ---------
+
+
