@@ -18,8 +18,8 @@ module.exports = {
     //   print: {'raw': 'print'},
     //   xsm: '500px',
     //   sm: '640px',
-    //   md: '793.92px', // ex 768px
-    //   lg: '1033.75px', // ex 1024px
+    //   md: '793.700832px', // ex 768px
+    //   lg: '1033.464625px', // ex 1024px
     //   xl: '1280px',
     // },
     extend: {
@@ -47,9 +47,9 @@ module.exports = {
         'letter': '85.9375rem',
         'letter-col': '72.1875rem',
         'letter-col-full': '77.9375rem',
-        'a4': '91.328125rem',
-        'a4-col': '77.578125rem',
-        'a4-col-full': '83.328125rem',
+        'a4': '91.350883rem',
+        'a4-col': '77.600883rem',
+        'a4-col-full': '83.350883rem',
       },
       spacing: {
         '0.2': '0.05rem',
@@ -58,6 +58,7 @@ module.exports = {
         '4.2': '1.18rem',
         '4.5': '1.15rem',
         '5.5': '1.3rem',
+        '7': '1.7rem',
         '9': '2.25rem',
         '14': '3.7rem',
       },
