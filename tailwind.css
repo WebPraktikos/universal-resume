@@ -113,6 +113,16 @@ html {
   visibility: hidden;
 }
 
+@screen print {
+  .print\:border-inset {
+    box-shadow: inset 0 0 0 1px theme(colors.gray.400);
+  }
+}
+
+.border-inset {
+  box-shadow: inset 0 0 0 1px theme(colors.gray.400);
+}
+
 @tailwind components;
 
 @tailwind utilities;
