@@ -27,10 +27,10 @@ module.exports = {
         main: ['IBM Plex Sans', ...defaultTheme.fontFamily.sans]
       },
       fontSize: {
-        label: '0.9375rem', // 15px
-        tag: '1rem', // 16px
-        heading: '1.125rem', // 18px
-        body: '1.0625rem', // 17px
+        '2sm': '0.9375rem', // 15px label
+        base: '1rem', // 16px base
+        m: '1.0625rem', // 17px body
+        lg: '1.125rem', // 18px heading
       },
       lineHeight: {
         heading: '1.4',
@@ -54,6 +54,7 @@ module.exports = {
       spacing: {
         '0.2': '0.05rem',
         '0.5': '0.07rem',
+        '0.7': '0.15rem',
         '1.5': '0.4rem',
         '4.2': '1.18rem',
         '4.5': '1.15rem',
