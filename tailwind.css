@@ -28,12 +28,12 @@
   }
 
   html {
-    font-size: 12.288px !important; /* ~13px */
+    font-size: 12.288px !important;
   }
 }
 
 html {
-  font-size: 13.176471px; /* 14px */
+  font-size: 13.176471px;
 }
 
 /* For Letter size */
@@ -46,7 +46,7 @@ html {
 
 @screen md {
   html {
-    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 816px) / (1062.5 - 816) );
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833) );
   }
 }
 

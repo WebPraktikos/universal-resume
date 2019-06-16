@@ -8,8 +8,8 @@ module.exports = {
       print: {'raw': 'print'},
       xsm: '500px',
       sm: '640px',
-      md: '816px', // ex 768px
-      lg: '1062.5px', // ex 1024px
+      md: '833px', // ex 768px
+      lg: '1079.5px', // ex 1024px
       xl: '1280px',
     },
     /* For A4 size */
