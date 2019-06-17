@@ -1,13 +1,12 @@
 Universal Resume Template
 ---------
 
-Resume website template for print, PDF, mobile, and desktop.
-Built with amazing [tailwindcss](https://tailwindcss.com/).
+Resume website template for print, PDF, mobile, and desktop. Built with amazing [tailwindcss](https://tailwindcss.com/).
 
 Letter Size Demo: https://universal-resume.netlify.com/  
 A4 Size Demo: https://universal-resume-a4.netlify.com/  
-Multiple Pages Demo: …  
-Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume.netlify.com%2F/  
+Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
+Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F  
 
 **How to print or save it as PDF?**  
 Right-click -> Print.
@@ -69,38 +68,25 @@ Code from `tailwind.config.js` and `tailwind.css` is compiled to `public/style.c
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
-Need to quickly change the style — just add a class to the html element and write CSS inside the `tailwind.css` file.
-
-Classical CSS Variant
----------
-
-If you don’t want to use Tailwind CSS, there is also a `universal-resume-classicalcss` directory which contains only classical CSS. It only contains `index.html` and `styles.css`.
+Need to quickly change CSS — just add a class to the html element and write CSS inside the `tailwind.css` file. You don’t need to follow the tailwindcss way.
 
 Columns
 ---------
 
-Beneath `<!-- Column -->`, removing `col-fill` class will make both columns equally tall. Adding `nofill` class will do the same effect for the classical CSS variant.
+Beneath `<!-- Column -->`, removing `col-fill` class will make both columns equally tall.
 
 A4 Size Variant
 ---------
 
 **Important:** Page will break in form of additional columns if there is too much content for one page.
 
-### For Tailwind CSS
-
 In order to change the default size (letter) to A4, follow these 3 steps:
 
 **1.** Inside `public/index.html`, replace every `-letter` with `-a4`.
 
-**2.** Inside `tailwind.config.js`, uncomment the code block below `/* For A4 size */`, then comment the code block below `/* For Letter size */`
+**2.** Inside `tailwind.config.js`, uncomment code block below `/* For A4 size */`, then comment code block below `/* For Letter size */`
 
-**3.** Inside `tailwind.css`, uncomment the code below `/* For A4 size */`, then comment the code below `/* For Letter size */`
-
-### For Classical CSS
-
-**1.** Inside `index.html`, replace every `-letter` with `-a4`.
-
-**2.** Inside `styles.css`, replace every **816 with 793.700832** and **1062.5 with 1033.464625**
+**3.** Inside `tailwind.css`, uncomment code below `/* For A4 size */`, then comment code below `/* For Letter size */`
 
 Printing
 ---------
@@ -108,7 +94,7 @@ Printing
 ### Chrome
 
 Right-click -> Print.  
-Also, choose the **Save as PDF** option if needed.
+Also, choose the **Save as PDF** option if needed.  
 
 By expanding **More Settings**, change **Page Size** to A4 or Letter.
 
@@ -118,7 +104,11 @@ File -> Print.
 
 Choose A4 or Letter size by navigating to **Properties -> Advanced -> Paper Size**.
 
-### Adobe Reader
+### Adobe Acrobat Reader
+
+File -> Print.  
+
+Click on the **Page Setup** button and choose A4 or Letter size.
 
 Blocking Search Engines
 ---------
@@ -134,7 +124,7 @@ Customer Support
 
 Contact me through https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
 
-If you have any questions or comments, feel free to message me. Always happy to hear from you. I’d love to chat.
+If you have any questions or comments, feel free to message me. Always happy to hear from you. I’d love to chat.  
 P.S. Stupid questions don’t exist for this one.
 
 Updates
