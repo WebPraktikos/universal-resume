@@ -107,10 +107,11 @@ html {
   transition-timing-function: ease-in-out;
 }
 
-.icon-parent::before {
+body main article .icon-parent::before {
   content: "A";
   width: 0px;
   visibility: hidden;
+  display: inline-block;
 }
 
 @screen print {
