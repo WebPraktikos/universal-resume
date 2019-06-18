@@ -18,8 +18,8 @@ module.exports = {
     //   print: {'raw': 'print'},
     //   xsm: '500px',
     //   sm: '640px',
-    //   md: '793.700832px', // ex 768px
-    //   lg: '1033.464625px', // ex 1024px
+    //   md: '811px', // ex 768px
+    //   lg: '1051px', // ex 1024px
     //   xl: '1280px',
     // },
     extend: {
