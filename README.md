@@ -1,3 +1,18 @@
+- [Universal Resume Template](#universal-resume-template)
+- [How to run it](#how-to-run-it)
+- [Starting Point](#starting-point)
+- [Tailwind CSS](#tailwind-css)
+- [Custom CSS](#custom-css)
+- [Columns](#columns)
+- [A4 Size Variant](#a4-size-variant)
+- [Printing](#printing)
+  - [Chrome](#chrome)
+  - [Firefor](#firefor)
+  - [Adobe Acrobat Reader](#adobe-acrobat-reader)
+- [Blocking Search Engines](#blocking-search-engines)
+- [Customer Support](#customer-support)
+- [Updates](#updates)
+
 Universal Resume Template
 ---------
 
@@ -125,12 +140,9 @@ Customer Support
 Contact me through https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
 
 If you have any questions or comments, feel free to message me. I’d love to chat.  
-Sidenote: Stupid questions don’t exist for this thing.
+**Sidenote:** Stupid questions don’t exist for this one.
 
 Updates
 ---------
 
 I will work on Universal Resume almost daily. Every 5 days is the new release.
-
-Changelog
----------
