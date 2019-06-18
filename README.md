@@ -24,10 +24,10 @@ Multiple Pages Demo: https://universal-resume-pages.netlify.com/
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F  
 
 **How to print or save it as PDF?**  
-Right-click -> Print.
+Right-click → Print.
 
 **Does it support A4 and Letter paper sizes?**  
-Yes, replace all *-letter classes with *-a4, and uncomment specified code blocks.
+Yes, replace all `-letter` classes with `-a4`, and uncomment specified code blocks.
 
 **What font does it use?**  
 Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
@@ -108,20 +108,20 @@ Printing
 
 ### Chrome
 
-Right-click -> Print.  
+Right-click → Print.  
 Also, choose the **Save as PDF** option if needed.  
 
 By expanding **More Settings**, change **Page Size** to A4 or Letter.
 
 ### Firefor
 
-File -> Print.  
+File → Print.  
 
-Choose A4 or Letter size by navigating to **Properties -> Advanced -> Paper Size**.
+Choose A4 or Letter size by navigating to **Properties → Advanced → Paper Size**.
 
 ### Adobe Acrobat Reader
 
-File -> Print.  
+File → Print.  
 
 By clicking on the **Page Setup** button, you are taken to the window to choose A4 or Letter size.
 
