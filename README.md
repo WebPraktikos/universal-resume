@@ -11,12 +11,11 @@
   - [Adobe Acrobat Reader](#adobe-acrobat-reader)
 - [Blocking Search Engines](#blocking-search-engines)
 - [Customer Support](#customer-support)
-- [Updates](#updates)
 
 Universal Resume Template
 ---------
 
-Resume website template for print, PDF, mobile, and desktop. Built with amazing [tailwindcss](https://tailwindcss.com/).
+Resume website template made for print, PDF, mobile, and desktop. Built with amazing [tailwindcss](https://tailwindcss.com/).
 
 Letter Size Demo: https://universal-resume.netlify.com/  
 A4 Size Demo: https://universal-resume-a4.netlify.com/  
@@ -137,12 +136,7 @@ Disable search engine indexing by adding the following code to the docoument’s
 Customer Support
 ---------
 
-Contact me through https://themeforest.net/user/webpraktikos or hi@webpraktikos.com
+Contact me at hi@webpraktikos.com
 
 If you have any questions or comments, feel free to message me. I’d love to chat.  
 **Sidenote:** Stupid questions don’t exist for this one.
-
-Updates
----------
-
-I will work on Universal Resume almost daily. Every 5 days is the new release.
