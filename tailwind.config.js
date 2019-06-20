@@ -33,7 +33,8 @@ module.exports = {
         lg: '1.125rem', // 18px heading
       },
       lineHeight: {
-        heading: '1.45',
+        heading: '1.4',
+        normal: '1.45',
       },
       letterSpacing: {
         wider: '0.07em', // ex 0.05em
@@ -44,10 +45,10 @@ module.exports = {
       },
       height: {
         'letter': '85.9375rem',
-        'letter-col': '72.1875rem',
+        'letter-col': '72.1375rem',
         'letter-col-full': '77.9375rem',
         'a4': '91.350883rem',
-        'a4-col': '77.600883rem',
+        'a4-col': '77.550883rem',
         'a4-col-full': '83.350883rem',
       },
       spacing: {
@@ -57,10 +58,8 @@ module.exports = {
         '1.5': '0.4rem',
         '4.2': '1.09rem',
         '4.5': '1.18rem',
-        '5.5': '1.3rem',
         '7': '1.85rem',
         '9': '2.3rem',
-        '14': '3.7rem',
       },
       colors: {
         gray: {
