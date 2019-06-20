@@ -33,8 +33,7 @@ module.exports = {
         lg: '1.125rem', // 18px heading
       },
       lineHeight: {
-        heading: '1.4',
-        normal: '1.45', // ex 1.5
+        heading: '1.45',
       },
       letterSpacing: {
         wider: '0.07em', // ex 0.05em
@@ -56,11 +55,11 @@ module.exports = {
         '0.5': '0.07rem',
         '0.7': '0.15rem',
         '1.5': '0.4rem',
-        '4.2': '1.18rem',
-        '4.5': '1.15rem',
+        '4.2': '1.09rem',
+        '4.5': '1.18rem',
         '5.5': '1.3rem',
-        '7': '1.7rem',
-        '9': '2.15rem',
+        '7': '1.85rem',
+        '9': '2.3rem',
         '14': '3.7rem',
       },
       colors: {
