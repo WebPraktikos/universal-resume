@@ -11,6 +11,7 @@
   - [Adobe Acrobat Reader](#adobe-acrobat-reader)
 - [Blocking Search Engines](#blocking-search-engines)
 - [Customer Support](#customer-support)
+- [License](#license)
 
 Universal Resume Template
 ---------
@@ -140,3 +141,10 @@ Contact me at hi@webpraktikos.com
 
 If you have any questions or comments, feel free to message me. I’d love to chat.  
 **Sidenote:** Stupid questions don’t exist for this one.
+
+License
+---------
+
+You are licensed to use the Item to create one single End Product for yourself or for one client.  
+An End Product is is a customised implementation of the Item.  
+Read the rest of the licence at https://universal-resume-license.netlify.com/
