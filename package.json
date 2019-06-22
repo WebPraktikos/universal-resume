@@ -1,6 +1,6 @@
 {
   "name": "universal-resume",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Resume website template that works on a monitor, paper, and phone.",
   "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
