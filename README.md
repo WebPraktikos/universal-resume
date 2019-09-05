@@ -12,6 +12,7 @@
 - [Blocking Search Engines](#blocking-search-engines)
 - [Customer Support](#customer-support)
 - [License](#license)
+- [Changelog](#changelog)
 
 Universal Resume Template
 ---------
@@ -148,3 +149,8 @@ License
 You are licensed to use the Item to create one single End Product for yourself or for one client.  
 An End Product is is a customised implementation of the Item.  
 Read the rest of the licence at https://universal-resume-license.netlify.com/
+
+Changelog
+---------
+
+https://www.notion.so/Changelog-for-Universal-Resume-0b7623d156994e7a95fe2fce5c6e7b99
