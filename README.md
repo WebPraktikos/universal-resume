@@ -17,7 +17,7 @@
 Universal Resume Template
 ---------
 
-Minimal and formal resume (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [tailwindcss](https://tailwindcss.com/).
+Minimal and formal resume (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [Tailwind CSS](https://tailwindcss.com/).
 
 Letter Size Demo: https://universal-resume.netlify.com/  
 A4 Size Demo: https://universal-resume-a4.netlify.com/  
