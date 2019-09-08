@@ -7,22 +7,24 @@
 - [A4 Size Variant](#a4-size-variant)
 - [Printing](#printing)
   - [Chrome](#chrome)
-  - [Firefor](#firefor)
+  - [Firefox](#firefox)
   - [Adobe Acrobat Reader](#adobe-acrobat-reader)
 - [Blocking Search Engines](#blocking-search-engines)
-- [Customer Support](#customer-support)
+- [Contact Me](#contact)
 - [License](#license)
 - [Changelog](#changelog)
 
 Universal Resume Template
 ---------
 
-Resume website template made for print, PDF, mobile, and desktop. Built with amazing [tailwindcss](https://tailwindcss.com/).
+Minimal and formal resume (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [tailwindcss](https://tailwindcss.com/).
 
 Letter Size Demo: https://universal-resume.netlify.com/  
 A4 Size Demo: https://universal-resume-a4.netlify.com/  
 Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F  
+
+**Note:** Licensed under CC BY-NC-SA 4. In short, your may use it for your resume, but not for a commercial project.
 
 **How to print or save it as PDF?**  
 Right-click → Print.
@@ -66,7 +68,7 @@ npm run public
 Starting Point
 ---------
 
-`public/index.html` is the location where the content is insertet. By copy-pasting HTML — add pages, sections, articles, or other types.
+`public/index.html` is the location where the content is inserted. By copy-pasting HTML — add pages, sections, articles, or other types.
 
 `npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
@@ -114,7 +116,7 @@ Also, choose the **Save as PDF** option if needed.
 
 By expanding **More Settings**, change **Page Size** to A4 or Letter.
 
-### Firefor
+### Firefox
 
 File → Print.  
 
@@ -129,26 +131,42 @@ By clicking on the **Page Setup** button, you are taken to the window to choose 
 Blocking Search Engines
 ---------
 
-Disable search engine indexing by adding the following code to the docoument’s `<head>`:
+Disable search engine indexing by adding the following code to the document `<head>`:
 
 ```
 <meta name="robots" content="noindex">
 ```
 
-Customer Support
+Contact Me
 ---------
 
-Contact me at hi@webpraktikos.com
+If you have any question, comment, or issue, please don’t hesitate to contact me at:  
+- hi@webpraktikos.com
+- https://twitter.com/webpraktikos
+- or open an issue on GitHub (Issues → New issue)
 
-If you have any questions or comments, feel free to message me. I’d love to chat.  
-**Sidenote:** Stupid questions don’t exist for this one.
+Also, you can hire me ($20/h) to do quality work. The transaction could be made after the first day; then, every two days, every week, and finally every two weeks. I’m open to other options. My specialties are Tailwind CSS, React JS, Gatsby JS, and Gutenberg Editor.
+
+Always happy to hear from you!
 
 License
 ---------
 
-You are licensed to use the Item to create one single End Product for yourself or for one client.  
-An End Product is is a customised implementation of the Item.  
-Read the rest of the licence at https://universal-resume-license.netlify.com/
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+### You are free to:
+
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+
+###  Under the following terms:
+
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+NonCommercial — You may not use the material for commercial purposes.
+
+ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 Changelog
 ---------
