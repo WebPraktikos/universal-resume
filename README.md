@@ -10,7 +10,7 @@
   - [Firefox](#firefox)
   - [Adobe Acrobat Reader](#adobe-acrobat-reader)
 - [Blocking Search Engines](#blocking-search-engines)
-- [Contact Me](#contact)
+- [Contact Me](#contact-me)
 - [License](#license)
 - [Changelog](#changelog)
 
@@ -22,7 +22,7 @@ Minimal and formal resume (CV) website template for print, mobile, and desktop. 
 Letter Size Demo: https://universal-resume.netlify.com/  
 A4 Size Demo: https://universal-resume-a4.netlify.com/  
 Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
-Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F  
+Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F
 
 **Note:** Licensed under CC BY-NC-SA 4. In short, your may use it for your resume, but not for a commercial project.
 
@@ -36,7 +36,7 @@ Yes, replace all `-letter` classes with `-a4`, and uncomment specified code bloc
 Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
 
 **Why it’s made?**  
-I couldn’t find any formal or professional resume (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page. 
+I couldn’t find any formal or professional resume (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
 
 How to run it
 ---------
@@ -75,7 +75,7 @@ Starting Point
 Tailwind CSS
 ---------
 
-Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation). 
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
 
 You rarely need to do anything outside the `index.html`. Use together a bunch of pre-made utility classes that reflect a certain design system. There’s no cascade or selector specificity. The result is faster, and much more pleasurable workflow, especially long-term.
 
@@ -112,19 +112,19 @@ Printing
 ### Chrome
 
 Right-click → Print.  
-Also, choose the **Save as PDF** option if needed.  
+Also, choose the **Save as PDF** option if needed.
 
 By expanding **More Settings**, change **Page Size** to A4 or Letter.
 
 ### Firefox
 
-File → Print.  
+File → Print.
 
 Choose A4 or Letter size by navigating to **Properties → Advanced → Paper Size**.
 
 ### Adobe Acrobat Reader
 
-File → Print.  
+File → Print.
 
 By clicking on the **Page Setup** button, you are taken to the window to choose A4 or Letter size.
 
@@ -140,7 +140,7 @@ Disable search engine indexing by adding the following code to the document `<he
 Contact Me
 ---------
 
-If you have any question, comment, or issue, please don’t hesitate to contact me at:  
+If you have any question, comment, or issue, please don’t hesitate to contact me at:
 - hi@webpraktikos.com
 - https://twitter.com/webpraktikos
 - or open an issue on GitHub (Issues → New issue)
@@ -160,7 +160,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 Share — copy and redistribute the material in any medium or format
 Adapt — remix, transform, and build upon the material
 
-###  Under the following terms:
+### Under the following terms:
 
 Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
