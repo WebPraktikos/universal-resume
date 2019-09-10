@@ -1,19 +1,3 @@
-- [Universal Resume Template](#universal-resume-template)
-- [How to run it](#how-to-run-it)
-- [Starting Point](#starting-point)
-- [Tailwind CSS](#tailwind-css)
-- [Custom CSS](#custom-css)
-- [Columns](#columns)
-- [A4 Size Variant](#a4-size-variant)
-- [Printing](#printing)
-  - [Chrome](#chrome)
-  - [Firefox](#firefox)
-  - [Adobe Acrobat Reader](#adobe-acrobat-reader)
-- [Blocking Search Engines](#blocking-search-engines)
-- [Contact Me](#contact-me)
-- [License](#license)
-- [Changelog](#changelog)
-
 Universal Resume Template
 ---------
 
