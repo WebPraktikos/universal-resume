@@ -8,7 +8,7 @@ A4 Size Demo: https://universal-resume-a4.netlify.com/
 Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F
 
-**Note:** Licensed under CC BY-NC-SA 4. In short, your may use it for your résumé, but not for a commercial project.
+**Note:** Licensed under CC NC-SA 1.0. In short, your may use it for your résumé, but not for commercial purposes.
 
 **How to print or save it as PDF?**  
 Right-click → Print.
@@ -136,17 +136,17 @@ Always happy to hear from you!
 License
 ---------
 
-Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+NonCommercial-ShareAlike 1.0 Generic (CC NC-SA 1.0)  
+https://creativecommons.org/licenses/nc-sa/1.0/
 
 ### You are free to:
 
 Share — copy and redistribute the material in any medium or format  
+
 Adapt — remix, transform, and build upon the material
 
 ### Under the following terms:
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 NonCommercial — You may not use the material for commercial purposes.
 
