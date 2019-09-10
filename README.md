@@ -145,7 +145,7 @@ If you have any question, comment, or issue, please don’t hesitate to contact 
 - https://twitter.com/webpraktikos
 - or open an issue on GitHub (Issues → New issue)
 
-Also, you can hire me ($15/h) to do quality work. The transaction could be made after the first day; then, every two days, every week, and finally every two weeks. I’m open to other options. My specialties are Tailwind CSS, React JS, Gatsby JS, and Gutenberg Editor.
+Also, you can hire me for $20/h to do quality work. The transaction could be made after the first day; then, every two days, every week, and finally every two weeks. I’m open to other options too. My specialties are Tailwind CSS, React JS, Gatsby JS, and Gutenberg Editor.
 
 Always happy to hear from you!
 
