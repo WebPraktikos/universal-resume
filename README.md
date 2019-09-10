@@ -1,14 +1,14 @@
-Universal Resume Template
+Universal Résumé Template
 ---------
 
-Minimal and formal resume (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [Tailwind CSS](https://tailwindcss.com/).
+Minimal and formal résumé (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [Tailwind CSS](https://tailwindcss.com/).
 
 Letter Size Demo: https://universal-resume.netlify.com/  
 A4 Size Demo: https://universal-resume-a4.netlify.com/  
 Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F
 
-**Note:** Licensed under CC BY-NC-SA 4. In short, your may use it for your resume, but not for a commercial project.
+**Note:** Licensed under CC BY-NC-SA 4. In short, your may use it for your résumé, but not for a commercial project.
 
 **How to print or save it as PDF?**  
 Right-click → Print.
@@ -20,7 +20,7 @@ Yes, replace all `-letter` classes with `-a4`, and uncomment specified code bloc
 Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
 
 **Why it’s made?**  
-I couldn’t find any formal or professional resume (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
+I couldn’t find any formal or professional résumé (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
 
 How to run it
 ---------
