@@ -43,7 +43,7 @@ Start the development server:
 npm run serve
 ```
 
-For the CSS optimizations, run this:
+Only generate CSS that is used (which results in much smaller file size):
 
 ```
 npm run public
