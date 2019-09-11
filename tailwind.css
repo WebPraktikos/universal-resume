@@ -40,7 +40,7 @@ html {
 
 @screen sm {
   html {
-    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (816 - 640) );
+    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640) );
   }
 }
 

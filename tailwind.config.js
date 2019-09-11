@@ -8,8 +8,8 @@ module.exports = {
       print: {'raw': 'print'},
       xsm: '500px',
       sm: '640px',
-      md: '833px', // ex 768px
-      lg: '1079.5px', // ex 1024px
+      md: '833px',
+      lg: '1079.5px',
       xl: '1280px',
     },
     /* For A4 size */
@@ -18,8 +18,8 @@ module.exports = {
     //   print: {'raw': 'print'},
     //   xsm: '500px',
     //   sm: '640px',
-    //   md: '811px', // ex 768px
-    //   lg: '1051px', // ex 1024px
+    //   md: '811px',
+    //   lg: '1051px',
     //   xl: '1280px',
     // },
     extend: {
@@ -37,7 +37,7 @@ module.exports = {
         normal: '1.45',
       },
       letterSpacing: {
-        wider: '0.07em', // ex 0.05em
+        wider: '0.07em',
       },
       maxWidth: {
         'letter': '66.40625rem',
