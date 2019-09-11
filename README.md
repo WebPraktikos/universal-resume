@@ -17,7 +17,7 @@ Right-click → Print.
 Yes, replace all `-letter` classes with `-a4`, and uncomment specified code blocks.
 
 **What font does it use?**  
-Per [Butterick’s](https://practicaltypography.com/) free fonts recommendations, I’ve chosen IBM Plex.
+Per [Butterick’s](https://practicaltypography.com/) free font recommendations, I’ve chosen IBM Plex.
 
 **Why it’s made?**  
 I couldn’t find any formal or professional résumé (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
