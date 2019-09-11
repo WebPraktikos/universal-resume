@@ -151,8 +151,3 @@ Adapt — remix, transform, and build upon the material
 NonCommercial — You may not use the material for commercial purposes.
 
 ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-Changelog
----------
-
-https://www.notion.so/Changelog-for-Universal-Resume-0b7623d156994e7a95fe2fce5c6e7b99
