@@ -61,7 +61,7 @@ Tailwind CSS
 
 Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
 
-You rarely need to do anything outside the `index.html`. Use together a bunch of pre-made utility classes that reflect a certain design system. There’s no cascade or selector specificity. The result is faster, and much more pleasurable workflow, especially long-term.
+You rarely need to do anything outside the `index.html`. Use together a bunch of pre-made utility classes that reflect a certain design system. There’s no cascade or selector specificity. This results in faster, and much more pleasurable workflow, especially long-term.
 
 Custom CSS
 ---------
