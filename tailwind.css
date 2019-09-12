@@ -107,7 +107,7 @@ html {
   transition-timing-function: ease-in-out;
 }
 
-body main article .icon-parent::before {
+body main section .icon-parent::before {
   content: "A";
   width: 0px;
   visibility: hidden;
