@@ -8,7 +8,9 @@ A4 Size Demo: https://universal-resume-a4.netlify.com/
 Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
 Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F
 
-**Note:** Licensed under CC NC-SA 1.0. In short, your may use it for your résumé, but not for commercial purposes.
+**Note:** Licensed under CC NC-SA 1.0. In short, your may use it for your résumé, but not for commercial projects. More info [here](#license).  
+
+**Donate:** If you find this project useful, please consider supporting me on [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6QE6CNA55WPA&source=url). Anything you send, it helps me a lot 👍
 
 **How to print or save it as PDF?**  
 Right-click → Print.
