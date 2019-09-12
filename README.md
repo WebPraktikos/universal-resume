@@ -52,7 +52,7 @@ npm run public
 Starting Point
 ---------
 
-`public/index.html` is the location where the content is inserted. By copy-pasting HTML — add pages, sections, articles, or other types.
+`public/index.html` is the location where the content is inserted. By copy-pasting HTML — add pages, sections, subsection, etc.
 
 `npm run public` will make **public** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (registration required beforehand).
 
