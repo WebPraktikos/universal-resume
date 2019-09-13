@@ -74,10 +74,10 @@ Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/
 
 Need to change CSS in the old way — add a class to the HTML element and write CSS inside the `tailwind.css` file. You don’t need to follow the tailwindcss way.
 
-Columns
+Balanced Columns
 ---------
 
-Beneath `<!-- Column -->`, removing `col-fill` class will make both columns equally tall.
+Removing `col-fill` class will make both columns equally tall. Moreover, removing `md:h-letter` and `md:h-letter-col` classes will eliminate fixed proportions of a letter or A4 page — thereby removing unnecessary vertical space when displaying short columns.
 
 A4 Size Variant
 ---------
