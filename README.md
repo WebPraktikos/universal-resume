@@ -3,14 +3,7 @@ Universal Résumé Template
 
 Minimal and formal résumé (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [Tailwind CSS](https://tailwindcss.com/).
 
-Letter Size Demo: https://universal-resume.netlify.com/  
-A4 Size Demo: https://universal-resume-a4.netlify.com/  
-Multiple Pages Demo: https://universal-resume-pages.netlify.com/  
-Mobile Demo: https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F
-
-**Note:** Licensed under CC NC-SA 1.0. In short, your may use it for your résumé, but not for commercial projects. More info [here](#license).  
-
-**Donate:** If you find this project useful, please consider supporting me on [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6QE6CNA55WPA&source=url). Anything you send, it’s a lot to me 👍
+[Letter Size Demo](https://universal-resume.netlify.com/) | [A4 Size Demo](https://universal-resume-a4.netlify.com/) | [Multiple Pages Demo](https://universal-resume-pages.netlify.com/) | [Mobile Demo](https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F)
 
 **How to print or save it as PDF?**  
 Right-click → Print.
@@ -22,7 +15,10 @@ Yes, replace all `-letter` classes with `-a4`, and uncomment specified code bloc
 Per [Butterick’s](https://practicaltypography.com/) free font recommendations, I’ve chosen IBM Plex.
 
 **Why it’s made?**  
-I couldn’t find any formal or professional résumé (CV) website with good typography, that is optimized for print, pdf, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
+I couldn’t find any formal or professional résumé (CV) website with good typography that is optimized for the Web, print, PDF, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
+
+**Donate?**  
+If you find this project useful, please consider supporting me on [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6QE6CNA55WPA&source=url).
 
 How to run it
 ---------
