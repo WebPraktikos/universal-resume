@@ -18,7 +18,7 @@ Per [Butterick’s](https://practicaltypography.com/) free font recommendations,
 I couldn’t find any formal or professional résumé (CV) website with good typography that is optimized for the Web, print, PDF, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
 
 **Donate?**  
-If you find this project useful, please consider supporting me on [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6QE6CNA55WPA&source=url).
+If you find this project useful, please consider supporting me via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6QE6CNA55WPA&source=url).
 
 How to run it
 ---------
