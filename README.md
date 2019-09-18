@@ -6,10 +6,10 @@ Minimal and formal résumé (CV) website template for print, mobile, and desktop
 [Letter Size Demo](https://universal-resume.netlify.com/) | [A4 Size Demo](https://universal-resume-a4.netlify.com/) | [Multiple Pages Demo](https://universal-resume-pages.netlify.com/) | [Mobile Demo](https://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.com%2F)
 
 **How to print or save it as PDF?**  
-Right-click → Print.
+In Chrome, Right-click → Print. In Firefox, File → Print. More [here](#printing).
 
 **Does it support A4 and Letter paper sizes?**  
-Yes, replace all `-letter` classes with `-a4`, and uncomment specified code blocks.
+Yes, replace all `-letter` classes with `-a4`, and uncomment specified code blocks. More [here](#a4-size-variant).
 
 **What font does it use?**  
 Per [Butterick’s](https://practicaltypography.com/) free font recommendations, I’ve chosen IBM Plex.
