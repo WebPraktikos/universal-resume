@@ -86,7 +86,7 @@ Change the default size (letter) to A4:
 
 **3.** Inside `tailwind.css`, uncomment code below `/* For A4 size */`, then comment code below `/* For Letter size */`
 
-**Important:** Page will break in the form of additional columns if there is too much content for one page.
+**Important:** Too much content for one page will break it in form of additional columns.
 
 Printing
 ---------
@@ -144,7 +144,6 @@ Share — copy and redistribute the material in any medium or format
 Adapt — remix, transform, and build upon the material
 
 ### Under the following terms:
-
 
 NonCommercial — You may not use the material for commercial purposes.
 
