@@ -78,8 +78,6 @@ Removing `col-fill` class will make both columns equally tall. Moreover, removin
 A4 Size Variant
 ---------
 
-**Important:** Page will break in the form of additional columns if there is too much content for one page.
-
 Change the default size (letter) to A4:
 
 **1.** Inside `public/index.html`, replace every `-letter` with `-a4`.
@@ -87,6 +85,8 @@ Change the default size (letter) to A4:
 **2.** Inside `tailwind.config.js`, uncomment code block below `/* For A4 size */`, then comment code block below `/* For Letter size */`
 
 **3.** Inside `tailwind.css`, uncomment code below `/* For A4 size */`, then comment code below `/* For Letter size */`
+
+**Important:** Page will break in the form of additional columns if there is too much content for one page.
 
 Printing
 ---------
