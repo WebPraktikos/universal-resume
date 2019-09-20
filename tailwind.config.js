@@ -29,7 +29,7 @@ module.exports = {
       fontSize: {
         '2sm': '0.9375rem', // 15px label
         base: '1rem', // 16px base
-        m: '1.0625rem', // 17px body
+        md: '1.0625rem', // 17px body
         lg: '1.125rem', // 18px heading
       },
       lineHeight: {
