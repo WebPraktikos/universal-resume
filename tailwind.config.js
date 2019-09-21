@@ -65,6 +65,9 @@ module.exports = {
         gray: {
           '150': '#F2F6FA',
           '250': '#EDF1F5',
+          '550': 'hsl(219, 20%, 63%)',
+          '650': 'hsl(216, 15%, 48%)',
+          '750': 'hsl(218, 17%, 32%)',
           ...defaultTheme.colors.gray
         }
       },
