@@ -68,7 +68,7 @@ Code from `tailwind.config.js` and `tailwind.css` compiles to `public/style.css`
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from the tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
-Need to change CSS in the old way — add a class to the HTML element and write CSS inside the `tailwind.css` file. You don’t need to follow the tailwindcss way.
+If you need to change CSS in the usual way, add a class to the HTML element and write CSS inside the `tailwind.css` file.
 
 Balanced Columns
 ---------
