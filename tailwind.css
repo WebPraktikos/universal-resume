@@ -102,7 +102,7 @@ html {
   hyphens: manual;
 }
 
-.transition-color-1 {
+.change-color-fast {
   transition: color 0.1s;
   transition-timing-function: ease-in-out;
 }
