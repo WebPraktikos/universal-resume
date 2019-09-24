@@ -64,7 +64,7 @@ You rarely need to do anything outside the `index.html`. Compose together a bunc
 Custom CSS
 ---------
 
-Code from `tailwind.config.js` and `tailwind.css` compiles to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
+Code from `tailwind.config.js` and `tailwind.css` transpiles to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from the tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
