@@ -127,7 +127,7 @@ If you have any question, comment, or issue, please don’t hesitate to contact 
 - https://twitter.com/webpraktikos
 - or open an issue on GitHub (Issues → New issue)
 
-Also, you can hire me to do good affordable work ($20/h). I’m focused on Tailwind CSS, React JS, Gatsby JS, and Gutenberg Editor.
+Also, you can hire me to do good affordable work. I’m focused on Tailwind CSS, React JS, Gatsby JS, and Gutenberg Editor.
 
 Always happy to hear from you!
 
