@@ -9,15 +9,13 @@
     "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css"
   },
   "dependencies": {
-    "autoprefixer": "^9.5.1",
-    "tailwindcss": "^1.0.1"
-  },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
-    "concurrently": "^4.1.0",
-    "cross-env": "^5.2.0",
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.6.4",
+    "concurrently": "^4.1.2",
+    "cross-env": "^5.2.1",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss-cli": "^6.1.2"
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.2"
   }
 }
