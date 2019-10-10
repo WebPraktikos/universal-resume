@@ -11,9 +11,6 @@ In Chrome, Right-click → Print. In Firefox, File → Print. More info [here](#
 **Does it support A4 and Letter paper sizes?**  
 Yes, replace all `-letter` classes with `-a4`, and uncomment specified code blocks. More info [here](#a4-size-variant).
 
-**What font does it use?**  
-Per [Butterick’s](https://practicaltypography.com/) free font recommendations, I’ve chosen IBM Plex.
-
 **Why it’s made?**  
 I couldn’t find any formal or professional résumé (CV) website with good typography that is optimized for the Web, print, PDF, and mobile. Also, researching what recruiters want, my priorities were fast scanning time and all content to fit on one page.
 

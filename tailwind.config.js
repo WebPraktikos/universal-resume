@@ -24,10 +24,10 @@ module.exports = {
     // },
     extend: {
       fontFamily: {
-        main: ['IBM Plex Sans', ...defaultTheme.fontFamily.sans]
+        main: ['Fira Sans', ...defaultTheme.fontFamily.sans]
       },
       fontSize: {
-        '2sm': '0.9375rem', // 15px label
+        sm2: '0.9375rem', // 15px label
         base: '1rem', // 16px base
         md: '1.0625rem', // 17px body
         lg: '1.125rem', // 18px heading
@@ -35,9 +35,6 @@ module.exports = {
       lineHeight: {
         heading: '1.4',
         normal: '1.45',
-      },
-      letterSpacing: {
-        wider: '0.07em',
       },
       maxWidth: {
         'letter': '66.40625rem',
@@ -52,13 +49,11 @@ module.exports = {
         'a4-col-full': '83.350883rem',
       },
       spacing: {
-        '0.2': '0.05rem',
         '0.5': '0.07rem',
-        '0.7': '0.15rem',
+        '0.7': '0.2rem',
         '1.5': '0.4rem',
-        '4.2': '1.09rem',
         '4.5': '1.18rem',
-        '7': '1.85rem',
+        '7': '1.55rem',
         '9': '2.3rem',
       },
       colors: {

@@ -102,6 +102,10 @@ html {
   hyphens: manual;
 }
 
+.optimize-legibility {
+  text-rendering: optimizeLegibility;
+}
+
 .change-color-fast {
   transition: color 0.1s;
   transition-timing-function: ease-in-out;
