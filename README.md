@@ -116,15 +116,13 @@ Disable search engine indexing by adding the following code to the document `<he
 <meta name="robots" content="noindex">
 ```
 
-Contact Me / Hire Me
+Contact Me
 ---------
 
 If you have any question, comment, or issue, please don’t hesitate to contact me at:
 - hi@webpraktikos.com
 - https://twitter.com/webpraktikos
 - or open an issue on GitHub (Issues → New issue)
-
-Also, you can hire me to do good affordable work. I’m focused on Tailwind CSS, React JS, Gatsby JS, and Gutenberg Editor.
 
 Always happy to hear from you!
 
