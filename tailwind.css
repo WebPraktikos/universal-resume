@@ -18,7 +18,7 @@
     padding: theme(spacing.16) theme(spacing.16) !important;
   }
 
-  .initials {
+  .initial {
     color: transparent !important;
     text-shadow: 0 0 0 #fff !important;
   }
@@ -104,6 +104,10 @@ html {
 
 .optimize-legibility {
   text-rendering: optimizeLegibility;
+}
+
+.initials-container {
+  min-width: 2.31rem;
 }
 
 .change-color-fast {
