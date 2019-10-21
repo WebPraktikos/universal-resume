@@ -116,7 +116,7 @@ Disable search engine indexing by adding the following code to the document `<he
 <meta name="robots" content="noindex">
 ```
 
-Contact Me
+Contact Me / Hire Me
 ---------
 
 If you have any question, comment, or issue, please don’t hesitate to contact me at:
