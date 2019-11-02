@@ -1,7 +1,7 @@
 {
   "name": "universal-resume",
   "version": "2.3.0",
-  "description": "Resume website template that works on a monitor, paper, and phone.",
+  "description": "Minimal and formal résumé (CV) website template for print, mobile, and desktop. https://bit.ly/2kEzgt8",
   "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
