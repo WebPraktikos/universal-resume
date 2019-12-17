@@ -35,7 +35,7 @@ Start the development server:
 npm run serve
 ```
 
-Only generate CSS that is used (which results in much smaller file size):
+Only generate CSS that is used on the page, which results in much smaller file size:
 
 ```
 npm run public
@@ -44,7 +44,7 @@ npm run public
 Starting Point
 ---------
 
-`public/index.html` is the location where content is inserted. By copy-pasting HTML, add pages, sections, subsection, etc.
+`public/index.html` is the main content file. By copy-pasting HTML — add pages, sections, subsection, etc.
 
 `npm run public` will make **public** directory ready for drag-n-drop to for example https://app.netlify.com/drop (registration required beforehand).
 
@@ -53,16 +53,16 @@ Tailwind CSS
 
 Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
 
-You rarely need to do anything outside the `index.html`. Compose together a bunch of pre-made utility classes that reflect a certain design system. There’s no cascade or selector specificity. This results in faster and much more pleasurable workflow, especially long-term.
+Compose together a bunch of pre-made utility classes that reflect a certain design system. There’s minimal cascade and selector specificity. This results in faster and much more pleasurable workflow, especially in the long term.
 
 Custom CSS
 ---------
 
 Code from `tailwind.config.js` and `tailwind.css` transpiles to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
 
-Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from the tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
+Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information about it from the Tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
-If you need to change CSS in the usual way, add a class to the HTML element and write CSS inside the `tailwind.css` file.
+If you want to change CSS in the classical way, add a class to the HTML element and write CSS inside `tailwind.css`.
 
 Balanced Columns
 ---------
@@ -72,7 +72,7 @@ Removing `col-fill` class will make both columns equally tall. Moreover, removin
 A4 Size Variant
 ---------
 
-Change the default size (letter) to A4:
+Change the default, letter, size to A4:
 
 **1.** Inside `public/index.html`, replace every `-letter` with `-a4`.
 
@@ -116,12 +116,10 @@ Disable search engine indexing by adding the following code to the document `<he
 Contact Me / Hire Me
 ---------
 
-If you have any question, comment, or issue, please don’t hesitate to contact me at:
+If you have any question, comment, or issue, please let me know via:
 - hi@webpraktikos.com
 - https://twitter.com/webpraktikos
 - or open an issue on GitHub (Issues → New issue)
-
-Always happy to hear from you!
 
 License
 ---------
