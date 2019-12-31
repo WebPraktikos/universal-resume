@@ -72,7 +72,7 @@ Removing `col-fill` class will make both columns equally tall. Moreover, removin
 A4 Size Variant
 ---------
 
-Change the default, letter, size to A4:
+Change the default (letter) size to A4:
 
 **1.** Inside `public/index.html`, replace every `-letter` with `-a4`.
 
