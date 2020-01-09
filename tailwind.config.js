@@ -33,7 +33,7 @@ module.exports = {
         lg: '1.125rem', // 18px heading
       },
       lineHeight: {
-        heading: '1.4',
+        snugish: '1.4',
         normal: '1.45',
       },
       maxWidth: {
