@@ -113,6 +113,11 @@ Disable search engine indexing by adding the following code to the document `<he
 <meta name="robots" content="noindex">
 ```
 
+Icons Used
+---------
+
+Thanks Steve Schoger for Heroicons UI (https://github.com/sschoger/heroicons-ui).
+
 Contact Me / Hire Me
 ---------
 
