@@ -38,16 +38,17 @@ npm run serve
 Only generate CSS that is used on the page, which results in much smaller file size:
 
 ```
-npm run public
+npm run docs
 ```
 
 Starting Point
 ---------
 
-`public/index.html` is the main content file. By copy-pasting HTML — add pages, sections, subsection, etc.
+`docs/index.html` is the main content file. By copy-pasting HTML — add pages, sections, subsection, etc.
 
-`npm run public` will make **public** directory ready for drag-n-drop to for example https://app.netlify.com/drop (registration required beforehand).
+`npm run docs` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (registration required beforehand), or for push to GitHub and integration with GitHub pages (completely free with a GitHub account).
 
+**IMPORTANT** Make sure to run npm public and check for a not outrageously large `docs/styles.css` file before pushing. Otherwise, you may end up with a decidedly not preferable file size and bias towards CSS in GitHub code percentage calculation.
 Tailwind CSS
 ---------
 
@@ -58,7 +59,7 @@ Compose together a bunch of pre-made utility classes that reflect a certain desi
 Custom CSS
 ---------
 
-Code from `tailwind.config.js` and `tailwind.css` transpiles to `public/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
+Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`. Default tailwind CSS is overwritten or extended with `tailwind.config.js`.
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information about it from the Tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
@@ -74,7 +75,7 @@ A4 Size Variant
 
 Change the default (letter) size to A4:
 
-**1.** Inside `public/index.html`, replace every `-letter` with `-a4`.
+**1.** Inside `docs/index.html`, replace every `-letter` with `-a4`.
 
 **2.** Inside `tailwind.config.js`, uncomment code block below `/* For A4 size */` and then comment code block below `/* For Letter size */`
 
