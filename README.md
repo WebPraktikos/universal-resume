@@ -46,9 +46,8 @@ Starting Point
 
 `docs/index.html` is the main content file. By copy-pasting HTML — add pages, sections, subsection, etc.
 
-`npm run docs` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (registration required beforehand), or for push to GitHub and integration with GitHub pages (completely free with a GitHub account).
+`npm run docs` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (free registration required beforehand). Also, ready for push to GitHub and integration with GitHub Pages with the following options: Settings → GitHub Pages → Source → /docs (free for public repos).
 
-**IMPORTANT** Make sure to run npm public and check for a not outrageously large `docs/styles.css` file before pushing. Otherwise, you may end up with a decidedly not preferable file size and bias towards CSS in GitHub code percentage calculation.
 Tailwind CSS
 ---------
 
