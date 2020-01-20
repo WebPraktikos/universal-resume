@@ -35,7 +35,7 @@ Start the development server:
 npm run serve
 ```
 
-Only generate CSS that is used on the page, which results in much smaller file size:
+Only generate CSS that is used on the page which results in much smaller file size:
 
 ```
 npm run docs
