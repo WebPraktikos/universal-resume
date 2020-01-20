@@ -38,7 +38,7 @@ npm run serve
 Only generate CSS that is used on the page which results in much smaller file size:
 
 ```
-npm run docs
+npm run build
 ```
 
 Starting Point
@@ -46,7 +46,7 @@ Starting Point
 
 `docs/index.html` is the main content file. By copy-pasting HTML — add pages, sections, subsection, etc.
 
-`npm run docs` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (free registration required beforehand). Also, ready for push to GitHub and integration with GitHub Pages with the following options: Settings → GitHub Pages → Source → /docs (free for public repos).
+`npm run build` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (free registration required beforehand). Also, ready for push to GitHub and integration with GitHub Pages with the following options: Settings → GitHub Pages → Source → /docs (free for public repos).
 
 Tailwind CSS
 ---------

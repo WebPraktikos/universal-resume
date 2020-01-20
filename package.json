@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o docs/styles.css --watch\"  \"live-server ./docs \"",
     "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o docs/styles.css",
-    "docs": "cross-env NODE_ENV=docs postcss ./tailwind.css -o docs/styles.css"
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o docs/styles.css"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
