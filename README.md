@@ -46,7 +46,7 @@ Starting Point
 
 `docs/index.html` is the main content file. By copy-pasting HTML — add pages, sections, subsection, etc.
 
-`npm run build` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (free registration required beforehand); also, ready for push to GitHub and integration with GitHub Pages with `Settings → GitHub Pages → Source → /docs` (free for public repos).
+`npm run build` will make **docs** directory ready for drag-n-drop to for example https://app.netlify.com/drop (free registration required beforehand); also, ready for push to GitHub and integration with GitHub Pages with `Settings → Options → GitHub Pages → Source → /docs` (free for public repos).
 
 Tailwind CSS
 ---------
