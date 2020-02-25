@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   theme: {
@@ -69,8 +70,139 @@ module.exports = {
       },
     },
   },
+
   variants: {
     textColor: ['responsive', 'hover', 'focus', 'group-hover']
   },
-  plugins: [],
+
+  plugins: [
+    plugin(function ({ addBase, addUtilities, theme }) {
+      addBase({
+        "body": {
+          "-webkit-font-smoothing": "subpixel-antialiased",
+        },
+        "input[type='search']::-webkit-search-cancel-button": {
+          "-webkit-appearance": "none",
+        },
+      });
+
+      /**
+       * Typography (with OpenType) Utilities
+       */
+
+      const typographyUtils = {
+        ".optimize-legibility": {
+          "text-rendering": "optimizeLegibility",
+        },
+        ".small-caps": {
+          "font-variant-caps": "small-caps",
+          "font-feature-settings": "'smcp' on",
+        },
+        ".all-small-caps": {
+          // "font-variant-caps": "all-small-caps",
+          "font-feature-settings": "'c2sc' on, 'smcp' on",
+        },
+        ".lining-nums": {
+          "font-variant-numeric": "lining-nums",
+          "font-feature-settings": "'lnum' on",
+        },
+        ".oldstyle-nums": {
+          "font-variant-numeric": "oldstyle-nums",
+          "font-feature-settings": "'onum' on",
+        },
+        ".proportional-nums": {
+          "font-variant-numeric": "proportional-nums",
+          "font-feature-settings": "'pnum' on",
+        },
+        ".tabular-nums": {
+          "font-variant-numeric": "tabular-nums",
+          "font-feature-settings": "'tnum' on",
+        },
+        ".ligatures": {
+          "font-variant-ligatures": "common-ligatures",
+          "font-feature-settings": "'liga' on, 'clig' on",
+        },
+        ".kerning": {
+          "font-kerning": "normal",
+          "font-feature-settings": "'kern' on",
+        },
+      }
+
+      addUtilities(typographyUtils, {
+        variants: ["responsive"],
+      })
+
+      /**
+       * Miscellaneous Utilities
+       */
+
+      const miscUtils = {
+        ".contents": {
+          "display": "contents",
+        },
+      }
+
+      addUtilities(miscUtils, {
+        variants: ["responsive"],
+      })
+
+      /**
+       * Project Spicific Utilities
+       */
+
+      const projectSpecificUtils = {
+        ".border-inset": {
+          "box-shadow": "inset 0 0 0 1px theme(colors.gray.400)",
+        }
+      }
+
+      addUtilities(projectSpecificUtils, {
+        variants: ["responsive"],
+      })
+
+      /**
+       * CSS Multi-column Layout Utilities
+       */
+
+      const columnUtils = {
+        ".col-count-1": {
+          "column-count": "1",
+        },
+        ".col-count-2": {
+          "column-count": "2",
+        },
+        ".col-count-3": {
+          "column-count": "3",
+        },
+        ".col-gap-md": {
+          "column-gap": "2.1875rem",
+        },
+        ".hyphens-manual": {
+          "hyphens": "manual",
+        },
+        ".break-after-col": {
+          "break-after": "column",
+        },
+        ".break-inside-avoid": {
+          "break-inside": "avoid",
+        },
+        ".break-after-avoid": {
+          "break-after": "avoid",
+        },
+        ".break-before-avoid": {
+          "break-after": "avoid",
+        },
+        ".col-fill-auto": {
+          "column-fill": "auto",
+        },
+        ".col-fill-balance": {
+          "column-fill": "balance",
+        },
+      }
+
+      addUtilities(columnUtils, {
+        variants: ["responsive"],
+      })
+    })
+  ]
 };

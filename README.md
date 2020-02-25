@@ -67,7 +67,7 @@ If you want to change CSS in the classical way, add a class to the HTML element 
 Balanced Columns
 ---------
 
-Removing `col-fill` class will make both columns equally tall. Moreover, removing `md:h-letter` and `md:h-letter-col` classes will eliminate fixed proportions of the letter or A4 page — thereby removing unnecessary vertical space when displaying short columns.
+Removing `col-fill-auto` class will make both columns equally tall. Moreover, removing `md:h-letter` and `md:h-letter-col` classes will eliminate fixed proportions of the letter or A4 page — thereby removing unnecessary vertical space when displaying short columns.
 
 A4 Size Variant
 ---------

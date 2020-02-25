@@ -70,42 +70,6 @@ html {
   }
 }
 
-@variants responsive {
-  .col-1 {
-    column-count: 1;
-  }
-
-  .col-2 {
-    column-count: 2;
-  }
-}
-
-.col-gap-md {
-  column-gap: 2.1875rem;
-}
-
-.col-fill {
-  column-fill: auto;
-}
-
-.col-break-avoid {
-  page-break-inside: avoid;
-  break-inside: avoid;
-}
-
-.col-break-after {
-  page-break-after: always;
-  break-after: always;
-}
-
-.hyphens-manual {
-  hyphens: manual;
-}
-
-.optimize-legibility {
-  text-rendering: optimizeLegibility;
-}
-
 .initials-container {
   min-width: 2.31rem;
 }
