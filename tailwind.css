@@ -74,11 +74,6 @@ html {
   min-width: 2.31rem;
 }
 
-.change-color-fast {
-  transition: color 0.1s;
-  transition-timing-function: ease-in-out;
-}
-
 body .icon-parent::before {
   content: "A";
   width: 0px;
