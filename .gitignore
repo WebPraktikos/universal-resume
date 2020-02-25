@@ -1,5 +1,5 @@
 # Ignore these so they're not stored in source control
 .vscode
-node_modules
+/node_modules/
 package-lock.json
-docs/styles.css
+/docs/build.css
