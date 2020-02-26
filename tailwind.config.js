@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     /* For Letter size */
     screens: {
-      screen: {'raw': 'screen'},
       print: {'raw': 'print'},
       xsm: '500px',
       sm: '640px',
@@ -81,9 +80,6 @@ module.exports = {
         "body": {
           "-webkit-font-smoothing": "subpixel-antialiased",
         },
-        "input[type='search']::-webkit-search-cancel-button": {
-          "-webkit-appearance": "none",
-        },
       });
 
       /**
@@ -152,7 +148,7 @@ module.exports = {
 
       const projectSpecificUtils = {
         ".border-inset": {
-          "box-shadow": "inset 0 0 0 1px theme(colors.gray.400)",
+          "box-shadow": `inset 0 0 0 1px ${theme("colors.gray.400")}`,
         }
       }
 
@@ -161,7 +157,7 @@ module.exports = {
       })
 
       /**
-       * CSS Multi-column Layout Utilities
+       * CSS Multi-Column Layout Utilities
        */
 
       const columnUtils = {
@@ -203,6 +199,7 @@ module.exports = {
       addUtilities(columnUtils, {
         variants: ["responsive"],
       })
-    })
+    }),
+
   ]
 };
