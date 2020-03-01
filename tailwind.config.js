@@ -24,7 +24,7 @@ module.exports = {
     // },
     extend: {
       fontFamily: {
-        main: ['Fira Sans', ...defaultTheme.fontFamily.sans]
+        "firago": ['FiraGO', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         sm2: '0.9375rem', // 15px label
@@ -90,12 +90,20 @@ module.exports = {
         ".optimize-legibility": {
           "text-rendering": "optimizeLegibility",
         },
+        ".ligatures": {
+          "font-variant-ligatures": "common-ligatures",
+          "font-feature-settings": "'liga' on, 'clig' on",
+        },
+        ".kerning": {
+          "font-kerning": "normal",
+          "font-feature-settings": "'kern' on",
+        },
         ".small-caps": {
           "font-variant-caps": "small-caps",
           "font-feature-settings": "'smcp' on",
         },
         ".all-small-caps": {
-          // "font-variant-caps": "all-small-caps",
+          "font-variant-caps": "all-small-caps",
           "font-feature-settings": "'c2sc' on, 'smcp' on",
         },
         ".lining-nums": {
@@ -114,13 +122,29 @@ module.exports = {
           "font-variant-numeric": "tabular-nums",
           "font-feature-settings": "'tnum' on",
         },
-        ".ligatures": {
-          "font-variant-ligatures": "common-ligatures",
-          "font-feature-settings": "'liga' on, 'clig' on",
+        ".slashed-zero": {
+          "font-variant-numeric": "slashed-zero",
+          "font-feature-settings": "'zero' on",
         },
-        ".kerning": {
-          "font-kerning": "normal",
-          "font-feature-settings": "'kern' on",
+        ".super": {
+          "font-variant-position": "super",
+          "font-feature-settings": "'sups' on",
+        },
+        ".sub": {
+          "font-variant-position": "sub",
+          "font-feature-settings": "'sub' on",
+        },
+        ".ordinal": {
+          "font-variant-position": "ordinal",
+          "font-feature-settings": "'ordn' on",
+        },
+        ".ordinal": {
+          "font-variant-numeric": "diagonal-fractions",
+          "font-feature-settings": "'frac' on",
+        },
+        ".case-sensitive": {
+          "text-transform": "uppercase",
+          "font-feature-settings": "'case' on",
         },
       }
 

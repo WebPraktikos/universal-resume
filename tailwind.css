@@ -1,4 +1,7 @@
-@tailwind base;
+@import "./firago.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @screen print {
   @page {
@@ -80,7 +83,3 @@ body .icon-parent::before {
   visibility: hidden;
   display: inline-block;
 }
-
-@tailwind components;
-
-@tailwind utilities;
