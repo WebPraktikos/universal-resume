@@ -138,7 +138,7 @@ module.exports = {
           "font-variant-position": "ordinal",
           "font-feature-settings": "'ordn' on",
         },
-        ".ordinal": {
+        ".fractions": {
           "font-variant-numeric": "diagonal-fractions",
           "font-feature-settings": "'frac' on",
         },
