@@ -35,7 +35,7 @@ Start the development server:
 npm run serve
 ```
 
-Only generate CSS that is used on the page which results in much smaller file size:
+Only generate CSS that is used on the page which results in a much smaller file size:
 
 ```
 npm run build
@@ -44,16 +44,14 @@ npm run build
 Starting Point
 ---------
 
-`docs/index.html` is the main content file. By copy-pasting HTML add pages, sections, subsection, etc.
+`docs/index.html` is the main content file. Add pages, sections, subsection, and other parts, by copy-pasting HTML.
 
-`npm run build` will make **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand). Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for push to GitHub and integration with GitHub Pages. It may take some time for changes to occur. GitHub Pages are set by configuring `Settings → Options → GitHub Pages → Source → /docs` (free for public repos).
+`npm run build` will make **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand). Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for the push to GitHub and integration with GitHub Pages. It may take some time for changes to occur. GitHub Pages are set by configuring `Settings → Options → GitHub Pages → Source → /docs` (free for public repos).
 
 Tailwind CSS
 ---------
 
 Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
-
-Compose together a bunch of pre-made utility classes that reflect a certain design system. There’s minimal cascade and selector specificity. This results in faster and much more pleasurable workflow, especially in the long term.
 
 Custom CSS
 ---------
@@ -80,7 +78,7 @@ Change the default (letter) size to A4:
 
 **3.** Inside `tailwind.css`, comment code below `/* For Letter size */` and uncomment code below `/* For A4 size */`
 
-**Important:** Too much content for one page will break it in form of additional columns.
+**Important:** Too much content on one page will break the page in the form of additional columns.
 
 Printing
 ---------
@@ -102,21 +100,16 @@ Choose A4 or Letter size by navigating to **Properties → Advanced → Paper Si
 
 File → Print.
 
-By clicking on the **Page Setup** button, you are taken to the window to choose A4 or Letter size.
+By clicking on the **Page Setup** button, you are taken to the window with A4 and Letter options.
 
 Blocking Search Engines
 ---------
 
-Disable search engine indexing by adding the following code to the document `<head>`:
+Disable search engine indexing by adding the following code to the `<head>`:
 
 ```
 <meta name="robots" content="noindex">
 ```
-
-Icons
----------
-
-Thanks Steve Schoger for Heroicons UI (https://github.com/sschoger/heroicons-ui).
 
 Contact Me / Hire Me
 ---------
