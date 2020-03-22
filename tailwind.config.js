@@ -74,7 +74,7 @@ module.exports = {
   },
 
   variants: {
-    textColor: ["responsive", "hover", "focus", "group-hover"]
+    textColor: ["responsive", 'hover', 'focus', 'group-hover']
   },
 
   plugins: [
@@ -95,59 +95,59 @@ module.exports = {
         },
         ".ligatures": {
           "font-variant-ligatures": "common-ligatures",
-          "font-feature-settings": ""liga" on, "clig" on",
+          "font-feature-settings": "'liga' on, 'clig' on",
         },
         ".kerning": {
           "font-kerning": "normal",
-          "font-feature-settings": ""kern" on",
+          "font-feature-settings": "'kern' on",
         },
         ".small-caps": {
           "font-variant-caps": "small-caps",
-          "font-feature-settings": ""smcp" on",
+          "font-feature-settings": "'smcp' on",
         },
         ".all-small-caps": {
           "font-variant-caps": "all-small-caps",
-          "font-feature-settings": ""c2sc" on, "smcp" on",
+          "font-feature-settings": "'c2sc' on, 'smcp' on",
         },
         ".lining-nums": {
           "font-variant-numeric": "lining-nums",
-          "font-feature-settings": ""lnum" on",
+          "font-feature-settings": "'lnum' on",
         },
         ".oldstyle-nums": {
           "font-variant-numeric": "oldstyle-nums",
-          "font-feature-settings": ""onum" on",
+          "font-feature-settings": "'onum' on",
         },
         ".proportional-nums": {
           "font-variant-numeric": "proportional-nums",
-          "font-feature-settings": ""pnum" on",
+          "font-feature-settings": "'pnum' on",
         },
         ".tabular-nums": {
           "font-variant-numeric": "tabular-nums",
-          "font-feature-settings": ""tnum" on",
+          "font-feature-settings": "'tnum' on",
         },
         ".slashed-zero": {
           "font-variant-numeric": "slashed-zero",
-          "font-feature-settings": ""zero" on",
+          "font-feature-settings": "'zero' on",
         },
         ".super": {
           "font-variant-position": "super",
-          "font-feature-settings": ""sups" on",
+          "font-feature-settings": "'sups' on",
         },
         ".sub": {
           "font-variant-position": "sub",
-          "font-feature-settings": ""sub" on",
+          "font-feature-settings": "'sub' on",
         },
         ".ordinal": {
           "font-variant-position": "ordinal",
-          "font-feature-settings": ""ordn" on",
+          "font-feature-settings": "'ordn' on",
         },
         ".fractions": {
           "font-variant-numeric": "diagonal-fractions",
-          "font-feature-settings": ""frac" on",
+          "font-feature-settings": "'frac' on",
         },
         ".case-sensitive": {
           "text-transform": "uppercase",
-          "font-feature-settings": ""case" on",
+          "font-feature-settings": "'case' on",
         },
       }
 
