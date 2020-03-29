@@ -1,0 +1,550 @@
+/* latin */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.latin.woff2') format('woff2');
+  unicode-range: U+0000-007F, U+0080-00FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-017F, U+0180-024F, U+0250-02AF, U+1E00-1EFF, U+2C60-2C7F, U+A720-A7FF, U+AB30-AB6F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-04FF, U+0500-052F;
+}
+/* special */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.special.woff2') format('woff2');
+  unicode-range: U+02B0-02FF, U+0300-036F, U+1D00-1D7F, U+1D80-1DBF, U+1DC0-1DFF, U+2300-23FF, U+2980-29FF, U+2B00-2BFF, U+E000-F8FF, U+FB00-FB4F;
+}
+/* greek */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.greek.woff2') format('woff2');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.hebrew.woff2') format('woff2');
+  unicode-range: U+0590-05FF;
+}
+/* arabic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+/* devanagari */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.devanagari.woff2') format('woff2');
+  unicode-range: U+0900-097F;
+}
+/* thai */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.thai.woff2') format('woff2');
+  unicode-range: U+0E00-0E7F;
+}
+/* georgian */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.georgian.woff2') format('woff2');
+  unicode-range: U+10A0-10FF;
+}
+/* shared */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-SemiBold.shared.woff2') format('woff2');
+  unicode-range: U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+25A0-25FF, U+2700-27BF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.latin.woff2') format('woff2');
+  unicode-range: U+0000-007F, U+0080-00FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-017F, U+0180-024F, U+0250-02AF, U+1E00-1EFF, U+2C60-2C7F, U+A720-A7FF, U+AB30-AB6F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-04FF, U+0500-052F;
+}
+/* special */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.special.woff2') format('woff2');
+  unicode-range: U+02B0-02FF, U+0300-036F, U+1D00-1D7F, U+1D80-1DBF, U+1DC0-1DFF, U+2300-23FF, U+2980-29FF, U+2B00-2BFF, U+E000-F8FF, U+FB00-FB4F;
+}
+/* greek */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.greek.woff2') format('woff2');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.hebrew.woff2') format('woff2');
+  unicode-range: U+0590-05FF;
+}
+/* arabic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+/* devanagari */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.devanagari.woff2') format('woff2');
+  unicode-range: U+0900-097F;
+}
+/* thai */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.thai.woff2') format('woff2');
+  unicode-range: U+0E00-0E7F;
+}
+/* georgian */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.georgian.woff2') format('woff2');
+  unicode-range: U+10A0-10FF;
+}
+/* shared */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Bold.shared.woff2') format('woff2');
+  unicode-range: U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+25A0-25FF, U+2700-27BF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.latin.woff2') format('woff2');
+  unicode-range: U+0000-007F, U+0080-00FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-017F, U+0180-024F, U+0250-02AF, U+1E00-1EFF, U+2C60-2C7F, U+A720-A7FF, U+AB30-AB6F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-04FF, U+0500-052F;
+}
+/* special */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.special.woff2') format('woff2');
+  unicode-range: U+02B0-02FF, U+0300-036F, U+1D00-1D7F, U+1D80-1DBF, U+1DC0-1DFF, U+2300-23FF, U+2980-29FF, U+2B00-2BFF, U+E000-F8FF, U+FB00-FB4F;
+}
+/* greek */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.greek.woff2') format('woff2');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.hebrew.woff2') format('woff2');
+  unicode-range: U+0590-05FF;
+}
+/* arabic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+/* devanagari */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.devanagari.woff2') format('woff2');
+  unicode-range: U+0900-097F;
+}
+/* thai */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.thai.woff2') format('woff2');
+  unicode-range: U+0E00-0E7F;
+}
+/* georgian */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.georgian.woff2') format('woff2');
+  unicode-range: U+10A0-10FF;
+}
+/* shared */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Book.shared.woff2') format('woff2');
+  unicode-range: U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+25A0-25FF, U+2700-27BF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.latin.woff2') format('woff2');
+  unicode-range: U+0000-007F, U+0080-00FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-017F, U+0180-024F, U+0250-02AF, U+1E00-1EFF, U+2C60-2C7F, U+A720-A7FF, U+AB30-AB6F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-04FF, U+0500-052F;
+}
+/* special */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.special.woff2') format('woff2');
+  unicode-range: U+02B0-02FF, U+0300-036F, U+1D00-1D7F, U+1D80-1DBF, U+1DC0-1DFF, U+2300-23FF, U+2980-29FF, U+2B00-2BFF, U+E000-F8FF, U+FB00-FB4F;
+}
+/* greek */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.greek.woff2') format('woff2');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.hebrew.woff2') format('woff2');
+  unicode-range: U+0590-05FF;
+}
+/* arabic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+/* devanagari */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.devanagari.woff2') format('woff2');
+  unicode-range: U+0900-097F;
+}
+/* thai */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.thai.woff2') format('woff2');
+  unicode-range: U+0E00-0E7F;
+}
+/* georgian */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.georgian.woff2') format('woff2');
+  unicode-range: U+10A0-10FF;
+}
+/* shared */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Medium.shared.woff2') format('woff2');
+  unicode-range: U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+25A0-25FF, U+2700-27BF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.latin.woff2') format('woff2');
+  unicode-range: U+0000-007F, U+0080-00FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-017F, U+0180-024F, U+0250-02AF, U+1E00-1EFF, U+2C60-2C7F, U+A720-A7FF, U+AB30-AB6F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-04FF, U+0500-052F;
+}
+/* special */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.special.woff2') format('woff2');
+  unicode-range: U+02B0-02FF, U+0300-036F, U+1D00-1D7F, U+1D80-1DBF, U+1DC0-1DFF, U+2300-23FF, U+2980-29FF, U+2B00-2BFF, U+E000-F8FF, U+FB00-FB4F;
+}
+/* greek */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.greek.woff2') format('woff2');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.hebrew.woff2') format('woff2');
+  unicode-range: U+0590-05FF;
+}
+/* arabic */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
+}
+/* devanagari */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.devanagari.woff2') format('woff2');
+  unicode-range: U+0900-097F;
+}
+/* thai */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.thai.woff2') format('woff2');
+  unicode-range: U+0E00-0E7F;
+}
+/* georgian */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.georgian.woff2') format('woff2');
+  unicode-range: U+10A0-10FF;
+}
+/* shared */
+@font-face {
+  font-family: 'FiraGo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url('./fonts2/FiraGO-Regular.shared.woff2') format('woff2');
+  unicode-range: U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2200-22FF, U+25A0-25FF, U+2700-27BF;
+}
