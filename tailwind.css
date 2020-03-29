@@ -1,4 +1,4 @@
-@import "./docs/FiraGo.css";
+@import "/docs/FiraGo.css";
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
