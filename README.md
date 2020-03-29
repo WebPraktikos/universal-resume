@@ -44,7 +44,7 @@ npm run build
 Starting Point
 ---------
 
-`docs/index.html` is the main content file. Add pages, sections, subsection, and other parts, by copy-pasting HTML.
+`docs/index.html` is the main content file. By copying HTML: add pages, sec­tions, subsection, and other parts.
 
 `npm run build` will make **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand). Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for the push to GitHub and integration with GitHub Pages. It may take some time for changes to occur. GitHub Pages are set by configuring `Settings → Options → GitHub Pages → Source → /docs` (free for public repos).
 
