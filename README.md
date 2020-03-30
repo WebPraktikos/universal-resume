@@ -111,6 +111,17 @@ Disable search engine indexing by adding the following code to the `<head>`:
 <meta name="robots" content="noindex">
 ```
 
+Language Support
+---------
+
+With [FiraGO](https://github.com/bBoxType/FiraGO) typeface, this résumé supports the following scrips: Latin, Cyrillic, Greek, Vietnamese, Arabic, Thai, Georgian, Devanagari, and Hebrew.
+
+If you want to significantly speed up font loading time, find out what fonts you are using (under developer tools network panel) and add them to the `head` like so:
+
+```html
+<link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous">
+```
+
 Contact Me / Hire Me
 ---------
 
