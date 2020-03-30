@@ -107,7 +107,7 @@ Blocking Search Engines
 
 Disable search engine indexing by adding the following code to the `<head>`:
 
-```
+```html
 <meta name="robots" content="noindex">
 ```
 
