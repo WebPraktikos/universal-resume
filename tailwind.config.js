@@ -87,9 +87,8 @@ module.exports = {
       });
 
       /**
-       * Typography (with OpenType) Utilities
+       * Typography Utilities
        */
-
       const typographyUtils = {
         ".optimize-legibility": {
           "text-rendering": "optimizeLegibility",
@@ -150,6 +149,9 @@ module.exports = {
           "text-transform": "uppercase",
           "font-feature-settings": "'case' on",
         },
+        ".hyphens-manual": {
+          "hyphens": "manual",
+        },
       }
 
       addUtilities(typographyUtils, {
@@ -157,23 +159,8 @@ module.exports = {
       })
 
       /**
-       * Miscellaneous Utilities
-       */
-
-      const miscUtils = {
-        ".contents": {
-          "display": "contents",
-        },
-      }
-
-      addUtilities(miscUtils, {
-        variants: ["responsive"],
-      })
-
-      /**
        * Project Spicific Utilities
        */
-
       const projectSpecificUtils = {
         ".border-inset": {
           "box-shadow": `inset 0 0 0 1px ${theme("colors.gray.400")}`,
@@ -187,7 +174,6 @@ module.exports = {
       /**
        * CSS Multi-Column Layout Utilities
        */
-
       const columnUtils = {
         ".col-count-1": {
           "column-count": "1",
@@ -200,9 +186,6 @@ module.exports = {
         },
         ".col-gap-md": {
           "column-gap": "2.1875rem",
-        },
-        ".hyphens-manual": {
-          "hyphens": "manual",
         },
         ".break-after-col": {
           "break-after": "column",
