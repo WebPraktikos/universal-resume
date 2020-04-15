@@ -2,7 +2,6 @@
   "name": "universal-resume-template",
   "version": "3.0.0",
   "description": "Minimal and formal résumé (CV) website template for print, mobile, and desktop. https://bit.ly/2kEzgt8",
-  "keywords": ["resume","cv","template","tailwindcss","html","pdf","paper","mobile","responsive","a4","letter","print","formal","minimal"],
   "homepage": "https://github.com/WebPraktikos/universal-resume",
   "repository": {
     "type": "git",
