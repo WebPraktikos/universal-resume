@@ -74,7 +74,7 @@ module.exports = {
 
   variants: {
     textColor: ["responsive", 'hover', 'focus', 'group-hover'],
-    margin: ["responsive", "last"],
+    margin: ["responsive", "last", "first"],
     padding: ["responsive", "last"],
   },
 
