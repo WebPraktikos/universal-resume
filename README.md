@@ -44,23 +44,25 @@ npm run build
 Starting Point
 ---------
 
-`docs/index.html` is the main content file. By copying HTML: add pages, sec­tions, subsection, and other parts.
+`docs/index.html` is the main content file. By copying HTML: add pages, sections, subsection, and other parts.
 
-`npm run build` will make **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand). Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for the push to GitHub and integration with GitHub Pages. It may take some time for changes to occur. GitHub Pages are set by configuring `Settings → Options → GitHub Pages → Source → /docs` (free for public repos).
+`npm run build` will make **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand).
+
+Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for push to GitHub and integration with GitHub Pages. GitHub Pages are free for  public repositories. Under your repository name, not profile, click “Settings” and enable GitHub Pages by navigating to: `Options → GitHub Pages → Source → /docs`.
 
 Tailwind CSS
 ---------
 
-Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has great [documentation](https://tailwindcss.com/docs/installation).
+Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. It has a great [documentation](https://tailwindcss.com/docs/installation).
 
 Custom CSS
 ---------
 
-Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`. Default Tailwind CSS is overwritten or extended with `tailwind.config.js`.
+Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`.
 
-Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information about it from the Tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
+Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from the Tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
-If you want to change CSS in the classical way, add a class to the HTML element and write CSS inside `tailwind.css`.
+If you want to change CSS in the classical way, add a class to the HTML element and write the CSS inside `tailwind.css`.
 
 Balanced Columns
 ---------
