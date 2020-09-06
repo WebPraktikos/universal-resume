@@ -46,7 +46,7 @@ Starting Point
 
 `docs/index.html` is the main content file. By copying HTML: add pages, sections, subsection, and other parts.
 
-`npm run build` will make **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand).
+`npm run build` will make the **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand).
 
 Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for push to GitHub and integration with GitHub Pages. GitHub Pages are free for  public repositories. Under your repository name, not profile, click “Settings” and enable GitHub Pages by navigating to: `Options → GitHub Pages → Source → /docs`.
 
@@ -62,7 +62,7 @@ Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from the Tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
-If you want to change CSS in the classical way, add a class to the HTML element and write the CSS inside `tailwind.css`.
+If you want to change CSS in a classical way, add a class to the HTML element and write the CSS inside `tailwind.css`.
 
 Balanced Columns
 ---------
