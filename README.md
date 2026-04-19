@@ -48,7 +48,7 @@ Starting Point
 
 `npm run build` will make the **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand).
 
-Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for push to GitHub and integration with GitHub Pages. GitHub Pages are free for  public repositories. In your GitHub page of a new repository for this project, click the “Settings” tab (next to Pull Requests, Discussions, and other tabs) and enable GitHub Pages by navigating to: `Options → GitHub Pages → Source → /docs`.
+Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for push to GitHub and integration with GitHub Pages. GitHub Pages are free for  public repositories. In your GitHub page of a new repository for this project, click the “Settings” tab (next to Pull Requests, Discussions, and other tabs) and enable GitHub Pages by navigating to: `Pages → Branch → /docs`.
 
 Tailwind CSS
 ---------
