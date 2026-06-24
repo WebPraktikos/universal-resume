@@ -1,7 +1,7 @@
 Universal Résumé Template
 ---------
 
-> There's also a hosted builder (alpha):
+> There's also a hosted builder (alpha):  
 > [UniversalResume.app](https://universalresume.app/?s=g)
 > 
 > - Write in plain text (Markdown)
