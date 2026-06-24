@@ -1,7 +1,7 @@
 Universal Résumé Template
 ---------
 
-> Universal Resume builder web app (alpha version):  
+> Now also a Universal Resume builder web app (alpha version):  
 > [UniversalResume.app](https://universalresume.app/?ref=github)
 > 
 > - Write in plain text (Markdown)
