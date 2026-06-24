@@ -6,7 +6,7 @@ Universal Résumé Template
 > 
 > - Write in plain text (Markdown)
 > - Import & rewrite an existing resume with AI
-> - Click anywhere to edit
+> - Click anywhere on the preview to edit
 > - Publish as a webpage
 > - Connect it to your own domain (resume.yourdomain.com)
 > - Export as PDF (screen & print versions)
