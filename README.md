@@ -1,6 +1,16 @@
 Universal Résumé Template
 ---------
 
+> Universal Resume builder web app (alpha version):  
+> https://UniversalResume.app
+> 
+> - Write in plain text (Markdown)
+> - Import & rewrite an existing resume with AI
+> - Click anywhere to edit
+> - Publish as a webpage
+> - Connect it to your own domain (resume.yourdomain.com)
+> - Export as PDF (screen & print versions)
+
 Minimal and formal résumé (CV) website template for print, mobile, and desktop. The proportions are the same on the screen and paper. Built with amazing [Tailwind CSS](https://tailwindcss.com/).
 
 [Letter Size Demo](https://universal-resume.netlify.app/) | [Multiple Pages Demo](https://universal-resume-pages.netlify.app/) | [A4 Size Demo](https://universal-resume-a4.netlify.app/) | [Mobile Demo](http://www.responsinator.com/?url=https%3A%2F%2Funiversal-resume-pages.netlify.app%2F)
