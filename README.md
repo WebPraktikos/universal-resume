@@ -2,7 +2,7 @@ Universal Résumé Template
 ---------
 
 > Universal Resume builder web app (alpha version):  
-> https://UniversalResume.app
+> [UniversalResume.app](https://universalresume.app/?ref=github)
 > 
 > - Write in plain text (Markdown)
 > - Import & rewrite an existing resume with AI
